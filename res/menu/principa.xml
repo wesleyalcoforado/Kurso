@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/kio_estas_esperanto" android:id="@+id/kio_estas_esperanto"></item>
+    <item android:title="@string/foriri" android:id="@+id/foriri"></item>
+</menu>
