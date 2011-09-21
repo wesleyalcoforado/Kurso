@@ -1,9 +1,7 @@
 package org.brazilo.esperanto.kurso;
 
-import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.Intent;
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -11,6 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import org.brazilo.esperanto.kurso.lecionoj.leciono_01.Leciono1;
+import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 public class Principa extends ListActivity {
     @Override
@@ -25,56 +26,47 @@ public class Principa extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	super.onListItemClick(l, v, position, id);
+    	
     	switch(position){
 		case 0:
-	    	MediaPlayer mp = MediaPlayer.create(this, R.raw.adiau1);
-	    	mp.start();
+			Intent intent = new Intent(this.getApplicationContext(), Leciono1.class);
+			this.startActivity(intent);
 	    	break;
 		case 1:
-	    	showAlert("Lição 2");
+			Utila.montriAverton("Lição 2", this);
 	    	break;
 		case 2:
-	    	showAlert("Lição 3");
+			Utila.montriAverton("Lição 3", this);
 	    	break;
 		case 3:
-	    	showAlert("Lição 4");
+			Utila.montriAverton("Lição 4", this);
 	    	break;
 		case 4:
-	    	showAlert("Lição 5");
+			Utila.montriAverton("Lição 5", this);
 	    	break;
 		case 5:
-	    	showAlert("Lição 6");
+			Utila.montriAverton("Lição 6", this);
 	    	break;
 		case 6:
-	    	showAlert("Lição 7");
+			Utila.montriAverton("Lição 7", this);
 	    	break;
 		case 7:
-	    	showAlert("Lição 8");
+			Utila.montriAverton("Lição 8", this);
 	    	break;
 		case 8:
-	    	showAlert("Lição 9");
+			Utila.montriAverton("Lição 9", this);
 	    	break;
 		case 9:
-	    	showAlert("Lição 10");
+			Utila.montriAverton("Lição 10", this);
 	    	break;	    	
 		case 10:
-	    	showAlert("Lição 11");
+			Utila.montriAverton("Lição 11", this);
 	    	break;
 		case 11:
-	    	showAlert("Lição 12");
+			Utila.montriAverton("Lição 12", this);
 	    	break;
     	}
     	
-    }
-	
-    public void showAlert(String msg){
-    	AlertDialog.Builder constructor = new AlertDialog.Builder(this);
-    	constructor.setMessage(msg);
-    	constructor.setNeutralButton("OK", null);
-    	constructor.setTitle("Oi!");
-    	
-    	AlertDialog alert = constructor.create();
-    	alert.show();
     }	
     
     @Override
