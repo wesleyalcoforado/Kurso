@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+	    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:stretchColumns="*" xmlns:android="http://schemas.android.com/apk/res/android">
+	        <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+	            <Button android:text="A" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ami" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="B" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="bela"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="bona"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="C" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="celo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="scienco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ĉ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĉio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="peĉo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="D" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="diri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="granda" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="E" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="eskalo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĝene" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="F" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="feŭdo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="feino" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="G" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="gusta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ago" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ĝ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĝiri" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĝusta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="H" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="horo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="hajlo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ĥ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĥoro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="eĥo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="I" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĝeni" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="J" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="juro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="prujno" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ĵ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĵuro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ĵurnalo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="K" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="knabo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="hoko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="L" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ŝelo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="alto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="M" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ame" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="iam" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="N" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="kanabo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ruino" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="O" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="oro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ravo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="P" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="peco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="peso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="R" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="roko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ero" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="S" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="selo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="scii" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ŝ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ŝerco" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ŝia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="T" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="tio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="felto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="U" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="ju" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="agu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Ŭ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="aŭto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="adiaŭ" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="V" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="vejno" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="kvita" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	        <TableRow android:layout_width="wrap_content" android:layout_height="wrap_content">
+	            <Button android:text="Z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="pezo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	            <Button android:text="okazi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+	        </TableRow>
+	    </TableLayout>
+	</ScrollView>
+</LinearLayout>

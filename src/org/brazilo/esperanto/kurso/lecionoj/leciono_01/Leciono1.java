@@ -4,6 +4,7 @@ import org.brazilo.esperanto.kurso.R;
 import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
@@ -26,7 +27,8 @@ public class Leciono1 extends ListActivity {
     	
     	switch(position){
 		case 0:
-			Utila.montriAverton("Lição 1", this);
+			Intent i = new Intent(this, Alfabeto.class);
+			startActivity(i);
 	    	break;
 
     	}
