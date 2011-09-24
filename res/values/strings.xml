@@ -44,5 +44,21 @@
     </string-array>
     <string name="butono_ok">OK</string>
     <string name="fenestro_averto">Alerta!</string>
+    <string name="leciono_1_alfabeto">Em esperanto, as palavras são escritas exatamente como são pronunciadas, e são pronunciadas exatamente conforme o som de cada letra escrita. A sílaba forte é sempre a penúltima (clique para ouvir a pronúncia e repita em voz alta).</string>
+    <string name="esperanta_alfabeto">O alfabeto do esperanto</string>
+    <string name="personaj_pronomoj">Pronomes pessoais</string>
+    <string name="singularo">Singular</string>
+    <string name="pluralo">Plural</string>
+    <string name="specialaj">Especiais</string>
+    <string name="mi">Eu</string>
+    <string name="vi_singularo">Tu, você</string>
+    <string name="li">Ele</string>
+    <string name="sxi">Ela</string>
+    <string name="gxi">Ele/ela (para mostrar algo ou alguém, cujo sexo não é necessário especificar)</string>
+    <string name="ni">Nós</string>
+    <string name="vi_pluralo">Vós, vocês</string>
+    <string name="ili">Eles/elas (é o plural de li, ŝi e ĝi)</string>
+    <string name="oni">Pronome pessoal indefinido, que signfica "as pessoas", "a gente", etc. Usado quando não se quer ou não se pode definir quem fez ou sofreu a ação.</string>
+    <string name="si">Pronome reflexivo da terceira pessoa (li, ŝi, ĝi, ili, oni), usado quando relaciona-se com o sujeiro da oração.</string>
     
 </resources>

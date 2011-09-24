@@ -1,10 +1,9 @@
 package org.brazilo.esperanto.kurso.utilaj;
 
-import java.util.Dictionary;
-import java.util.Enumeration;
 import java.util.HashMap;
 
 import org.brazilo.esperanto.kurso.R;
+
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.res.Resources;

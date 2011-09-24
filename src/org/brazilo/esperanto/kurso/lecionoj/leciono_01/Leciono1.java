@@ -1,7 +1,6 @@
 package org.brazilo.esperanto.kurso.lecionoj.leciono_01;
 
 import org.brazilo.esperanto.kurso.R;
-import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 import android.app.ListActivity;
 import android.content.Intent;
@@ -25,12 +24,16 @@ public class Leciono1 extends ListActivity {
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	super.onListItemClick(l, v, position, id);
     	
+    	Intent intent = null;
     	switch(position){
 		case 0:
-			Intent i = new Intent(this, Alfabeto.class);
-			startActivity(i);
+			intent = new Intent(this, Alfabeto.class);
+			startActivity(intent);
 	    	break;
-
+		case 2:
+			intent = new Intent(this, PersonajPronomoj.class);
+			startActivity(intent);
+	    	break;
     	}
     	
     }	

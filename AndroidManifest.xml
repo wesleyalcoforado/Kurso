@@ -15,7 +15,8 @@
         </activity>
         <activity android:name=".KioEstas" android:label="@string/app_name"></activity>
         <activity android:name=".lecionoj.leciono_01.Leciono1" android:label="@string/app_name"></activity>
-        <activity android:name=".lecionoj.leciono_01.Alfabeto" android:label="@string/app_name"></activity>
+        <activity android:name=".lecionoj.leciono_01.Alfabeto" android:label="@string/esperanta_alfabeto"></activity>
+        <activity android:label="@string/app_name" android:name=".lecionoj.leciono_01.PersonajPronomoj"></activity>
 
     </application>
 </manifest>
