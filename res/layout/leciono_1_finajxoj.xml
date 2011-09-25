@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+	  	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="vertical"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent">
+		    <TextView android:layout_height="wrap_content" android:text="@string/verboj" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_finajxoj_butono_verboj" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
+		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_finajxoj_verboj" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
+		    	<TextView android:layout_height="wrap_content" android:text="@string/teksto_tempaj_verboj" android:layout_width="fill_parent" ></TextView>
+			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+						<Button android:text="mi estas" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+					    <TextView android:text="@string/mi_estas" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="li estis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/li_estis"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="ŝi estas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/sxi_estas" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="ĝi estos" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/gxi_estos" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="ni estas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/ni_estas" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="vi estis" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/vi_estis" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="ili estas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/ili_estas" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px">
+						<Button android:text="oni estos" android:layout_height="wrap_content" android:onClick="ludu" android:layout_gravity="center_vertical"></Button>
+					    <TextView android:text="@string/oni_estos"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+			    </TableLayout>
+		    </LinearLayout>
+		    <TextView android:layout_height="wrap_content" android:text="@string/substantivoj" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_finajxoj_butono_substantivoj" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
+		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_finajxoj_substantivoj" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
+				<TextView android:layout_height="wrap_content" android:text="@string/teksto_substantivoj" android:layout_width="fill_parent" ></TextView>
+			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+						<Button android:text="amiko" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+					    <TextView android:text="@string/amiko" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="frato" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/frato"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="kafo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/kafo" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+			    </TableLayout>
+		    </LinearLayout>
+		    <TextView android:layout_height="wrap_content" android:text="@string/adjektivoj" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_finajxoj_butono_adjektivoj" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
+		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_finajxoj_adjektivoj" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
+			    <TextView android:layout_height="wrap_content" android:text="@string/teksto_adjektivoj" android:layout_width="fill_parent" ></TextView>
+			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+						<Button android:text="bela" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+					    <TextView android:text="@string/bela" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="sana" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/sana"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
+						<Button android:text="varma" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
+					    <TextView android:text="@string/varma" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+				    </TableRow>
+			    </TableLayout>
+		    </LinearLayout>
+	    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

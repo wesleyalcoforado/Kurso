@@ -33,7 +33,7 @@
         <item>O alfabeto</item>
         <item>Compreensão auditiva I</item>
         <item>Pronomes pessoais</item>
-        <item>Verbos</item>
+        <item>Terminações</item>
         <item>Vocabulário</item>
         <item>Plural</item>
         <item>Pronomes possesivos</item>
@@ -60,5 +60,25 @@
     <string name="ili">Eles/elas (é o plural de li, ŝi e ĝi)</string>
     <string name="oni">Pronome pessoal indefinido, que signfica "as pessoas", "a gente", etc. Usado quando não se quer ou não se pode definir quem fez ou sofreu a ação.</string>
     <string name="si">Pronome reflexivo da terceira pessoa (li, ŝi, ĝi, ili, oni), usado quando relaciona-se com o sujeiro da oração.</string>
-    
+    <string name="finajxoj">Terminações</string>
+    <string name="verboj">Verbos</string>
+    <string name="teksto_tempaj_verboj">O tempo infinitivo termina com -i: esti (ser, estar); o tempo passado termina com -is: estis (foi, esteve); o presente em -as: estas (é, está) e o futuro termina em -os: estos (será, estará). Outros tempos e modos verbais serão tratados nas lições seguintes.</string>
+    <string name="mi_estas">Eu sou, estou</string>
+    <string name="li_estis">Ele foi/era, esteve/estava</string>
+    <string name="sxi_estas">Ela é, está</string>
+    <string name="gxi_estos">Ele/ela será, estará</string>
+    <string name="ni_estas">Nós somos, estamos</string>
+    <string name="vi_estis">Vocês foram/eram, estavam/estiveram</string>
+    <string name="ili_estas">Eles/elas são, estão</string>
+    <string name="oni_estos">será, estará (sujeito indefinido)</string>
+    <string name="substantivoj">Substantivos</string>
+    <string name="teksto_substantivoj">Terminam com a letra "o":</string>
+    <string name="amiko">amigo</string>
+    <string name="frato">irmão</string>
+    <string name="kafo">café</string>
+    <string name="adjektivoj">Adjetivos</string>
+    <string name="teksto_adjektivoj">Terminam com a letra "a":</string>
+    <string name="bela">belo(a), bonito(a)</string>
+    <string name="sana">são, sã, saudável</string>
+    <string name="varma">quente</string>
 </resources>

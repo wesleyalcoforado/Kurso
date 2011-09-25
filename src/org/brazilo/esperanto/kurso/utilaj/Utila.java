@@ -49,6 +49,7 @@ public class Utila {
     	paroj.put("ĝ", "gx");
     	paroj.put("ĥ", "hx");
     	paroj.put("ŭ", "ux");
+    	paroj.put(" ", "_");
     	
     	for(String sxlosilo: paroj.keySet()){
     		vorto = vorto.replaceAll(sxlosilo, paroj.get(sxlosilo));

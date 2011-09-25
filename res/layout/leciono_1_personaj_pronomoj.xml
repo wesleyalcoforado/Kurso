@@ -13,55 +13,55 @@
 		    <TextView android:layout_height="wrap_content" android:text="@string/singularo" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_pp_butono_singularo" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
 		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_pp_singularo" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
 			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
-						<Button android:text="mi" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/mi" android:layout_width="fill_parent"></TextView>
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+						<Button android:text="mi" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px" android:baselineAligned="false"></Button>
+					    <TextView android:text="@string/mi" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
 						<Button android:text="vi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/vi_singularo" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/vi_singularo"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
 						<Button android:text="li" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/li" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/li" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
 						<Button android:text="ŝi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/sxi" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/sxi" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px">
 						<Button android:text="ĝi" android:layout_height="wrap_content" android:onClick="ludu" android:layout_gravity="center_vertical"></Button>
-					    <TextView android:text="@string/gxi" android:layout_height="fill_parent" android:layout_weight="1" android:layout_width="0dp"></TextView>
+					    <TextView android:text="@string/gxi"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
 			    </TableLayout>
 		    </LinearLayout>
-		    <TextView android:layout_height="wrap_content" android:text="@string/pluralo" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_pp_butono_pluralo" android:clickable="true" android:background="@drawable/gradiento_orangxa_nigra" android:padding="12dip"></TextView>
+		    <TextView android:layout_height="wrap_content" android:text="@string/pluralo" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_pp_butono_pluralo" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
 		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_pp_pluralo" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
 			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
 						<Button android:text="ni" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/ni" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/ni"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
 						<Button android:text="vi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/vi_pluralo" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/vi_pluralo"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10px" android:baselineAligned="false">
 						<Button android:text="ili" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu"></Button>
-					    <TextView android:layout_height="wrap_content" android:text="@string/ili" android:layout_width="fill_parent"></TextView>
+					    <TextView android:text="@string/ili"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
 			    </TableLayout>
 		    </LinearLayout>
-		    <TextView android:layout_height="wrap_content" android:text="@string/specialaj" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_pp_butono_specialaj" android:clickable="true" android:background="@drawable/gradiento_purpura_nigra" android:padding="12dip"></TextView>
+		    <TextView android:layout_height="wrap_content" android:text="@string/specialaj" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="fill_parent" android:onClick="kuntiri" android:id="@+id/leciono_1_pp_butono_specialaj" android:clickable="true" android:background="@drawable/gradiento_verda_nigra" android:padding="12dip"></TextView>
 		    <LinearLayout android:layout_height="wrap_content" android:id="@+id/leciono_1_pp_specialaj" android:layout_width="fill_parent" android:orientation="vertical" android:visibility="gone" android:padding="6dip">
 			    <TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
 						<Button android:text="oni" android:layout_width="wrap_content" android:onClick="ludu" android:width="100px" android:layout_height="wrap_content" android:layout_gravity="center_vertical"></Button>
 					    <TextView android:text="@string/oni"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
-				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="true" android:layout_marginTop="10px">
+				    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px">
 						<Button android:text="si" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="ludu" android:layout_gravity="center_vertical"></Button>
-					    <TextView android:text="@string/si"  android:layout_weight="5" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+					    <TextView android:text="@string/si"  android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
 				    </TableRow>
 			    </TableLayout>
 		    </LinearLayout>
