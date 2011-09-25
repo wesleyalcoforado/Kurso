@@ -19,6 +19,7 @@
         <activity android:name=".lecionoj.leciono_01.PersonajPronomoj" android:label="@string/personaj_pronomoj"></activity>
         <activity android:label="@string/finajxoj" android:name=".lecionoj.leciono_01.Finajxoj"></activity>
         <activity android:label="@string/vortareto" android:name=".lecionoj.leciono_01.Vortareto"></activity>
+        <activity android:label="@string/pluralo" android:name=".lecionoj.leciono_01.Pluralo"></activity>
 
     </application>
 </manifest>

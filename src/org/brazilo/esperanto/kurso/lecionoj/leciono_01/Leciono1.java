@@ -42,6 +42,10 @@ public class Leciono1 extends ListActivity {
 			intent = new Intent(this, Vortareto.class);
 			startActivity(intent);
 	    	break;
+		case 5:
+			intent = new Intent(this, Pluralo.class);
+			startActivity(intent);
+	    	break;
     	}
     	
     }	

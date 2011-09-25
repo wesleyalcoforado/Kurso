@@ -99,4 +99,15 @@
     <string name="seka">seco(a)</string>
     <string name="biskvito">biscoito</string>
     <string name="blanka">branco(a)</string>
+    <string name="amikoj">amigos</string>
+    <string name="patroj">pais (só do sexo masculino)</string>
+    <string name="floroj">flores</string>
+    <string name="belaj">belos (as), bonitos (as)</string>
+    <string name="sanaj">sãos, sãs, saudáveis</string>
+    <string name="bela_floro">bela flor</string>
+    <string name="belaj_floroj">belas flores</string>
+    <string name="sana_patro">pai saudável</string>
+    <string name="sanaj_patroj">pais saudáveis</string>
+    <string name="bona_amiko">bom amigo</string>
+    <string name="bonaj_amikoj">bons amigos</string>
 </resources>
