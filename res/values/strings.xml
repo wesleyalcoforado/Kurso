@@ -81,4 +81,22 @@
     <string name="bela">belo(a), bonito(a)</string>
     <string name="sana">são, sã, saudável</string>
     <string name="varma">quente</string>
+    <string name="vortareto">Vocabulário</string>
+    <string name="filo">filho</string>
+    <string name="viro">homem (macho)</string>
+    <string name="knabo">menino, garoto</string>
+    <string name="instruisto">professor</string>
+    <string name="floro">flor</string>
+    <string name="patro">pai</string>
+    <string name="kuko">bolo</string>
+    <string name="lakto">leite</string>
+    <string name="pano">pão</string>
+    <string name="sukero">açúcar</string>
+    <string name="teo">chá</string>
+    <string name="granda">grande</string>
+    <string name="nova">novo(a)</string>
+    <string name="bona">bom, boa</string>
+    <string name="seka">seco(a)</string>
+    <string name="biskvito">biscoito</string>
+    <string name="blanka">branco(a)</string>
 </resources>

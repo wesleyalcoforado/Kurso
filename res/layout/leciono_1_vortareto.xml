@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  	<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+  		<TableLayout android:layout_height="wrap_content" android:layout_width="fill_parent"  xmlns:android="http://schemas.android.com/apk/res/android">
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="amiko" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/amiko" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="filo" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/filo" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="frato" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/frato" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="viro" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/viro" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="knabo" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/knabo" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="floro" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/floro" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="patro" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/patro" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="instruisto" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/instruisto" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="kafo" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/kafo" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="kuko" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/kuko" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="lakto" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/lakto" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="pano" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/pano" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="sukero" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/sukero" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="teo" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/teo" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="biskvito" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/biskvito" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="bela" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/bela" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="granda" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/granda" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="nova" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/nova" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="bona" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/bona" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="seka" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/seka" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="blanka" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/blanka" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="varma" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/varma" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  			<TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_marginTop="10px" >
+				<Button android:text="sana" android:layout_height="wrap_content" android:onClick="ludu" android:width="100px"></Button>
+			    <TextView android:text="@string/sana" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content"></TextView>
+  			</TableRow>
+  		</TableLayout>
+  	</ScrollView>
+</LinearLayout>
