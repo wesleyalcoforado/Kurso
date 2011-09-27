@@ -46,6 +46,10 @@ public class Leciono1 extends ListActivity {
 			intent = new Intent(this, Pluralo.class);
 			startActivity(intent);
 	    	break;
+		case 6:
+			intent = new Intent(this, PosedajPronomoj.class);
+			startActivity(intent);
+	    	break;	    	
     	}
     	
     }	

@@ -99,6 +99,7 @@
     <string name="seka">seco(a)</string>
     <string name="biskvito">biscoito</string>
     <string name="blanka">branco(a)</string>
+    <string name="teksto_pluralo">O plural é formado pela adição da letra "j" ao final dos substantivos e adjetivos:</string>
     <string name="amikoj">amigos</string>
     <string name="patroj">pais (só do sexo masculino)</string>
     <string name="floroj">flores</string>
@@ -110,4 +111,19 @@
     <string name="sanaj_patroj">pais saudáveis</string>
     <string name="bona_amiko">bom amigo</string>
     <string name="bonaj_amikoj">bons amigos</string>
+    <string name="posedaj_pronomoj">Pronomes possessivos</string>
+    <string name="teksto_posedaj_pronomoj">Os pronomes possessivos são formados pela adição da terminação adjetiva ("a") aos pronomes pessoais:</string>
+    <string name="teksto_posedaj_pronomoj_rimarko_pluralo">Observação: também os pronomes possessivos recebem a terminação "j" no plural:</string>
+    <string name="mia">meu, minha</string>
+    <string name="via">teu, tua, vosso, vossa</string>
+    <string name="sxia">seu, sua, dela</string>
+    <string name="lia">seu, sua, dele</string>
+    <string name="gxia">seu, sua, dele, dela (neutro)</string>
+    <string name="nia">nosso, nossa</string>
+    <string name="ilia">seu, sua, deles</string>
+    <string name="mia_amiko">meu amigo</string>
+    <string name="miaj_amikoj">meus amigos</string>
+    <string name="nia_floro">nossa flor</string>
+    <string name="niaj_floroj">nossas flores</string>
+    
 </resources>
