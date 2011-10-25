@@ -19,8 +19,14 @@ public class Principa extends ListActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.principa);
         
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.menu_lecionoj, android.R.layout.simple_list_item_1);
-        setListAdapter(adapter);
+        try
+        {
+        	CharSequence[] strings = this.getResources().getTextArray(R.array.menu_lecionoj);
+	        ArrayAdapter<CharSequence> adapter = new ArrayAdapter<CharSequence>(this, R.layout.linio, android.R.id.text1, strings);
+	        setListAdapter(adapter);
+        }catch(Exception e){
+        	Utila.montriAverton(e.getMessage(), this);
+        }
     }
 
     @Override

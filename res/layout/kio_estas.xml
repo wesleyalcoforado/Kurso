@@ -4,10 +4,25 @@
   android:orientation="vertical"
   android:layout_width="fill_parent"
   android:layout_height="fill_parent">
-    <TextView android:layout_height="wrap_content" android:id="@+id/textView1" android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" android:text="@string/kio_estas_esperanto"></TextView>
-    <ScrollView android:layout_height="fill_parent" android:id="@+id/scrollView1" android:layout_width="fill_parent">
-        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent">
-            <TextView android:text="@string/teksto_kio_estas_esperanto" android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+  
+  	<RelativeLayout 
+  		style="@style/fonkaplinio">
+  		<ImageView 
+  			android:id="@+id/stelo"
+  			android:src="@drawable/stelo"
+  			style="@style/kaplinibildo"
+  		/>	
+	    <TextView 
+	    	android:text="@string/kio_estas_esperanto" 
+	    	android:layout_toLeftOf="@id/stelo"
+	    	style="@style/kaplinio"
+	    	>
+	   	</TextView>
+  	
+  	</RelativeLayout>
+    <ScrollView style="@style/plenigi_patro">
+        <LinearLayout style="@style/plenigi_patro">
+            <TextView android:text="@string/teksto_kio_estas_esperanto" style="@style/plenigi_patro.teksto"></TextView>
         </LinearLayout>
     </ScrollView>
     

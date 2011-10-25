@@ -7,20 +7,20 @@
 
     <application android:label="@string/app_name" android:icon="@drawable/icon">
         <activity android:name=".Principa"
-                  android:label="@string/app_name">
+                  android:label="@string/app_name" android:theme="@style/Hauxto">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".KioEstas" android:label="@string/app_name"></activity>
-        <activity android:name=".lecionoj.leciono_01.Leciono1" android:label="@string/app_name"></activity>
-        <activity android:name=".lecionoj.leciono_01.Alfabeto" android:label="@string/esperanta_alfabeto"></activity>
-        <activity android:name=".lecionoj.leciono_01.PersonajPronomoj" android:label="@string/personaj_pronomoj"></activity>
-        <activity android:label="@string/finajxoj" android:name=".lecionoj.leciono_01.Finajxoj"></activity>
-        <activity android:label="@string/vortareto" android:name=".lecionoj.leciono_01.Vortareto"></activity>
-        <activity android:label="@string/pluralo" android:name=".lecionoj.leciono_01.Pluralo"></activity>
-        <activity android:label="@string/posedaj_pronomoj" android:name=".lecionoj.leciono_01.PosedajPronomoj"></activity>
+        <activity android:name=".KioEstas" android:label="@string/app_name" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:name=".lecionoj.leciono_01.Leciono1" android:label="@string/app_name" android:theme="@style/Hauxto"></activity>
+        <activity android:name=".lecionoj.leciono_01.Alfabeto" android:label="@string/esperanta_alfabeto" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:name=".lecionoj.leciono_01.PersonajPronomoj" android:label="@string/personaj_pronomoj" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:label="@string/finajxoj" android:name=".lecionoj.leciono_01.Finajxoj" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:label="@string/vortareto" android:name=".lecionoj.leciono_01.Vortareto" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:label="@string/pluralo" android:name=".lecionoj.leciono_01.Pluralo" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:label="@string/posedaj_pronomoj" android:name=".lecionoj.leciono_01.PosedajPronomoj" android:theme="@style/Hauxto.Light"></activity>
 
     </application>
 </manifest>

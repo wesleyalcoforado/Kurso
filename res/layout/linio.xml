@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/fonlisto" >
+	
+	<ImageView 
+		android:id="@+id/sago"
+		style="@style/fonlistbildo"
+		/>
+		
+	<TextView 
+		android:layout_toLeftOf="@id/sago"
+		style="@style/kaplinio"
+		android:id="@android:id/text1"/>
+
+</RelativeLayout>

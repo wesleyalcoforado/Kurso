@@ -14,10 +14,10 @@ public class Leciono1 extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.lecionoj);
-		
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.menu_leciono_1, android.R.layout.simple_list_item_1);
-        setListAdapter(adapter);
-		
+
+    	CharSequence[] strings = this.getResources().getTextArray(R.array.menu_leciono_1);
+        ArrayAdapter<CharSequence> adapter = new ArrayAdapter<CharSequence>(this, R.layout.linio, android.R.id.text1, strings);
+        setListAdapter(adapter);        
 	}
 	
     @Override
