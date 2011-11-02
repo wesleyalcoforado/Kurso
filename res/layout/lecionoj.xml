@@ -4,5 +4,25 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent"></ListView>
+  	<RelativeLayout 
+  		style="@style/fonkaplinio">
+  		<ImageView 
+  			android:id="@+id/stelo"
+  			android:src="@drawable/stelo"
+  			style="@style/kaplinibildo"
+  		/>	
+	    <TextView 
+	    	android:text="@string/lecionoj" 
+	    	style="@style/kaplinio"
+	    	android:id="@+id/nomo_leciono"
+	    	android:layout_toLeftOf="@id/stelo"
+	    	>
+	   	</TextView>
+  	</RelativeLayout>
+  	    
+    <ListView 
+    	android:id="@android:id/list" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+   	/>
 </LinearLayout>

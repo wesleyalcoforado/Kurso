@@ -8,12 +8,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 
 public class Leciono1 extends ListActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.lecionoj);
+		
+		TextView titolo = (TextView)findViewById(R.id.nomo_leciono);
+		titolo.setText(R.string.leciono_1);
 
     	CharSequence[] strings = this.getResources().getTextArray(R.array.menu_leciono_1);
         ArrayAdapter<CharSequence> adapter = new ArrayAdapter<CharSequence>(this, R.layout.linio, android.R.id.text1, strings);

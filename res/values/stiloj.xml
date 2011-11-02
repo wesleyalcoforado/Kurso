@@ -35,6 +35,14 @@
     	<item name="android:layout_alignParentRight">true</item>
     </style>
     
+    <style name="reveni">
+    	<item name="android:layout_width">48dip</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:layout_alignParentTop">true</item>
+    	<item name="android:layout_alignParentBottom">true</item>
+    	<item name="android:layout_alignParentLeft">true</item>
+    </style>    
+    
     <style name="fonlisto">
     	<item name="android:layout_height">?android:attr/listPreferredItemHeight</item>
     	<item name="android:layout_width">fill_parent</item>

@@ -32,34 +32,39 @@ public final class R {
         public static final int stelo=0x7f020008;
     }
     public static final class id {
-        public static final int foriri=0x7f0a000f;
-        public static final int kio_estas_esperanto=0x7f0a000e;
-        public static final int leciono_1_finajxoj_adjektivoj=0x7f0a0006;
-        public static final int leciono_1_finajxoj_butono_adjektivoj=0x7f0a0005;
-        public static final int leciono_1_finajxoj_butono_substantivoj=0x7f0a0003;
-        public static final int leciono_1_finajxoj_butono_verboj=0x7f0a0001;
-        public static final int leciono_1_finajxoj_substantivoj=0x7f0a0004;
-        public static final int leciono_1_finajxoj_verboj=0x7f0a0002;
-        public static final int leciono_1_pp_butono_pluralo=0x7f0a0009;
-        public static final int leciono_1_pp_butono_singularo=0x7f0a0007;
-        public static final int leciono_1_pp_butono_specialaj=0x7f0a000b;
-        public static final int leciono_1_pp_pluralo=0x7f0a000a;
-        public static final int leciono_1_pp_singularo=0x7f0a0008;
-        public static final int leciono_1_pp_specialaj=0x7f0a000c;
-        public static final int sago=0x7f0a000d;
+        public static final int foriri=0x7f0a0013;
+        public static final int kio_estas_esperanto=0x7f0a0012;
+        public static final int leciono_1_finajxoj_adjektivoj=0x7f0a0009;
+        public static final int leciono_1_finajxoj_butono_adjektivoj=0x7f0a0008;
+        public static final int leciono_1_finajxoj_butono_substantivoj=0x7f0a0006;
+        public static final int leciono_1_finajxoj_butono_verboj=0x7f0a0004;
+        public static final int leciono_1_finajxoj_substantivoj=0x7f0a0007;
+        public static final int leciono_1_finajxoj_verboj=0x7f0a0005;
+        public static final int leciono_1_pp_butono_pluralo=0x7f0a000c;
+        public static final int leciono_1_pp_butono_singularo=0x7f0a000a;
+        public static final int leciono_1_pp_butono_specialaj=0x7f0a000e;
+        public static final int leciono_1_pp_pluralo=0x7f0a000d;
+        public static final int leciono_1_pp_singularo=0x7f0a000b;
+        public static final int leciono_1_pp_specialaj=0x7f0a000f;
+        public static final int linearLayout1=0x7f0a0001;
+        public static final int nomo_leciono=0x7f0a0010;
+        public static final int sago=0x7f0a0011;
         public static final int stelo=0x7f0a0000;
+        public static final int tabEkzerco=0x7f0a0003;
+        public static final int tabKlarigo=0x7f0a0002;
     }
     public static final class layout {
         public static final int kio_estas=0x7f030000;
         public static final int leciono_1_alfabeto=0x7f030001;
-        public static final int leciono_1_finajxoj=0x7f030002;
-        public static final int leciono_1_personaj_pronomoj=0x7f030003;
-        public static final int leciono_1_pluralo=0x7f030004;
-        public static final int leciono_1_posedaj_pronomoj=0x7f030005;
-        public static final int leciono_1_vortareto=0x7f030006;
-        public static final int lecionoj=0x7f030007;
-        public static final int linio=0x7f030008;
-        public static final int principa=0x7f030009;
+        public static final int leciono_1_alfabeto_1=0x7f030002;
+        public static final int leciono_1_finajxoj=0x7f030003;
+        public static final int leciono_1_personaj_pronomoj=0x7f030004;
+        public static final int leciono_1_pluralo=0x7f030005;
+        public static final int leciono_1_posedaj_pronomoj=0x7f030006;
+        public static final int leciono_1_vortareto=0x7f030007;
+        public static final int lecionoj=0x7f030008;
+        public static final int linio=0x7f030009;
+        public static final int principa=0x7f03000a;
     }
     public static final class menu {
         public static final int principa=0x7f090000;
@@ -222,7 +227,6 @@ public final class R {
         public static final int bona_amiko=0x7f070049;
         public static final int bonaj_amikoj=0x7f07004a;
         public static final int butono_ok=0x7f070006;
-        public static final int elektu_lecionon=0x7f070003;
         public static final int esperanta_alfabeto=0x7f070009;
         public static final int fenestro_averto=0x7f070007;
         public static final int filo=0x7f07002e;
@@ -244,6 +248,7 @@ public final class R {
         public static final int knabo=0x7f070030;
         public static final int kuko=0x7f070034;
         public static final int lakto=0x7f070035;
+        public static final int leciono_1=0x7f070003;
         public static final int leciono_1_alfabeto=0x7f070008;
         public static final int lecionoj=0x7f070001;
         public static final int li=0x7f070010;
@@ -302,11 +307,12 @@ public final class R {
         public static final int Hauxto=0x7f050000;
         public static final int Hauxto_Light=0x7f050001;
         public static final int fonkaplinio=0x7f050002;
-        public static final int fonlistbildo=0x7f050006;
-        public static final int fonlisto=0x7f050005;
+        public static final int fonlistbildo=0x7f050007;
+        public static final int fonlisto=0x7f050006;
         public static final int kaplinibildo=0x7f050004;
         public static final int kaplinio=0x7f050003;
-        public static final int plenigi_patro=0x7f050007;
-        public static final int plenigi_patro_teksto=0x7f050008;
+        public static final int plenigi_patro=0x7f050008;
+        public static final int plenigi_patro_teksto=0x7f050009;
+        public static final int reveni=0x7f050005;
     }
 }

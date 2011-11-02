@@ -14,7 +14,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".KioEstas" android:label="@string/app_name" android:theme="@style/Hauxto.Light"></activity>
-        <activity android:name=".lecionoj.leciono_01.Leciono1" android:label="@string/app_name" android:theme="@style/Hauxto"></activity>
+        <activity android:name=".lecionoj.leciono_01.Leciono1" android:label="@string/app_name" android:theme="@style/Hauxto.Light"></activity>
         <activity android:name=".lecionoj.leciono_01.Alfabeto" android:label="@string/esperanta_alfabeto" android:theme="@style/Hauxto.Light"></activity>
         <activity android:name=".lecionoj.leciono_01.PersonajPronomoj" android:label="@string/personaj_pronomoj" android:theme="@style/Hauxto.Light"></activity>
         <activity android:label="@string/finajxoj" android:name=".lecionoj.leciono_01.Finajxoj" android:theme="@style/Hauxto.Light"></activity>
