@@ -1,11 +1,11 @@
 package org.brazilo.esperanto.kurso.utilaj;
 
-import android.app.Activity;
+import android.app.TabActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class KursoActivity extends Activity {
+public class KursoActivity extends TabActivity {
 
 	public void ludu(View v){
 		Button butono = (Button)v;

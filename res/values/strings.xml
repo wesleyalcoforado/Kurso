@@ -3,6 +3,8 @@
     <string name="app_name">Kurso</string>
     <string name="lecionoj">Lições</string>
     <string name="kio_estas_esperanto">O que é Esperanto?</string>
+    <string name="klarigo">Explicação</string>
+    <string name="ekzercoj">Exercícios</string>
     <string name="leciono_1">Lição 1</string>
     <string-array name="menu_lecionoj">
         <item>Leciono 1</item>
@@ -44,7 +46,7 @@
     </string-array>
     <string name="butono_ok">OK</string>
     <string name="fenestro_averto">Alerta!</string>
-    <string name="leciono_1_alfabeto">Em esperanto, as palavras são escritas exatamente como são pronunciadas, e são pronunciadas exatamente conforme o som de cada letra escrita. A sílaba forte é sempre a penúltima (clique para ouvir a pronúncia e repita em voz alta).</string>
+    <string name="leciono_1_alfabeto">Em esperanto, as palavras são escritas exatamente como são pronunciadas, e são pronunciadas exatamente conforme o som de cada letra escrita. A sílaba forte é sempre a penúltima. Na aba de exercícios, clique para ouvir a pronúncia e repita em voz alta (deslize a tela para ouvir cada letra).</string>
     <string name="esperanta_alfabeto">O alfabeto do esperanto</string>
     <string name="personaj_pronomoj">Pronomes pessoais</string>
     <string name="singularo">Singular</string>

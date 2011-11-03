@@ -15,17 +15,68 @@
           android:layout_width="fill_parent" 
           android:layout_height="fill_parent" 
           android:id="@android:id/tabcontent">
-            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabKlarigo">
+            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabKlarigo" android:gravity="center">
             	<TextView android:text="@string/leciono_1_alfabeto" style="@style/plenigi_patro.teksto" />
             </LinearLayout>
             <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabEkzerco">
             	<org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher style="@style/plenigi_patro">
-		            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabKlarigo">
-		            	<TextView android:text="lilili" style="@style/plenigi_patro.teksto" />
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:layout_width="128dip"
+		            			android:layout_height="128dip"
+		            			android:text="A"
+		            			android:textSize="64dip"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:layout_width="128dip"
+		            			android:layout_height="wrap_content"
+		            			android:text="ami"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+		            		 />
+		            		<Button
+		            			android:layout_width="128dip"
+		            			android:layout_height="wrap_content"
+		            			android:text="ia"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+		            		 />
+		            	</RelativeLayout>
 		            </LinearLayout>
-		            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabKlarigo">
-		            	<TextView android:text="lalala" style="@style/plenigi_patro.teksto" />
-		            </LinearLayout>
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:layout_width="128dip"
+		            			android:layout_height="128dip"
+		            			android:text="B"
+		            			android:textSize="64dip"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:layout_width="128dip"
+		            			android:layout_height="wrap_content"
+		            			android:text="bela"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+		            		 />
+		            		<Button
+		            			android:layout_width="128dip"
+		            			android:layout_height="wrap_content"
+		            			android:text="bona"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		            
             	</org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher>
             </LinearLayout>
         </FrameLayout>

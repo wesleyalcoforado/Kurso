@@ -1,13 +1,13 @@
 package org.brazilo.esperanto.kurso.lecionoj.leciono_01;
 
 import org.brazilo.esperanto.kurso.R;
+import org.brazilo.esperanto.kurso.utilaj.KursoActivity;
 
-import android.app.TabActivity;
 import android.os.Bundle;
 import android.widget.TabHost;
 
 
-public class Alfabeto extends TabActivity {
+public class Alfabeto extends KursoActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -16,7 +16,7 @@ public class Alfabeto extends TabActivity {
 		TabHost mTabHost = getTabHost();
 		
 		mTabHost.addTab(mTabHost.newTabSpec("tabKlarigo").setIndicator("Explicação").setContent(R.id.tabKlarigo));
-		mTabHost.addTab(mTabHost.newTabSpec("tabEkzerco").setIndicator("Exercício").setContent(R.id.tabEkzerco));
+		mTabHost.addTab(mTabHost.newTabSpec("tabEkzerco").setIndicator("Exercícios").setContent(R.id.tabEkzerco));
 		
 		mTabHost.setCurrentTab(0);
 	}

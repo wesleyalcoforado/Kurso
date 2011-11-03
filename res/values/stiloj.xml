@@ -68,7 +68,10 @@
     	<item name="android:padding">10dip</item>
     	<item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
-    
+
+    <style name="plenigi_patro.centro">
+    	<item name="android:gravity">center</item>
+    </style>    
     
     <color name="fonaKoloro">#F6FFE0</color>
     <color name="malfonaKoloro">#454839</color>
