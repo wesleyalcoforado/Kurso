@@ -24,27 +24,26 @@
 						<RelativeLayout style="@style/plenigi_patro.centro">
 		            		<Button
 		            			android:id="@+id/litero"
-		            			android:layout_width="128dip"
-		            			android:layout_height="128dip"
 		            			android:text="A"
-		            			android:textSize="64dip"
 		            			android:drawableBottom="@drawable/sono"
 		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
 		            		 />
 		            		<Button
 		            			android:id="@+id/vorto1"
-		            			android:layout_width="128dip"
-		            			android:layout_height="wrap_content"
 		            			android:text="ami"
 								android:layout_below="@id/litero"
 								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
 		            		 />
 		            		<Button
-		            			android:layout_width="128dip"
-		            			android:layout_height="wrap_content"
 		            			android:text="ia"
 								android:layout_below="@id/vorto1"
 								android:onClick="ludu"
+
+								style="@style/malgranda_butono"
 		            		 />
 		            	</RelativeLayout>
 		            </LinearLayout>
@@ -53,30 +52,757 @@
 						<RelativeLayout style="@style/plenigi_patro.centro">
 		            		<Button
 		            			android:id="@+id/litero"
-		            			android:layout_width="128dip"
-		            			android:layout_height="128dip"
 		            			android:text="B"
-		            			android:textSize="64dip"
 		            			android:drawableBottom="@drawable/sono"
 		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
 		            		 />
 		            		<Button
 		            			android:id="@+id/vorto1"
-		            			android:layout_width="128dip"
-		            			android:layout_height="wrap_content"
 		            			android:text="bela"
 								android:layout_below="@id/litero"
 								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
 		            		 />
 		            		<Button
-		            			android:layout_width="128dip"
-		            			android:layout_height="wrap_content"
 		            			android:text="bona"
 								android:layout_below="@id/vorto1"
 								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
 		            		 />
 		            	</RelativeLayout>
-		            </LinearLayout>		            
+		            </LinearLayout>
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="C"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="celo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="scienco"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ĉ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ĉio"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="peĉo"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="D"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="diri"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="granda"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="E"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="eskalo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ĝene"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>
+					
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="F"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="feŭdo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="feino"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>	
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="G"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="gusta"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ago"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ĝ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ĝiri"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ĝusta"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="H"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="horo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="hajlo"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ĥ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ĥoro"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="eĥo"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="I"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ie"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ĝeni"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="J"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="juro"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="prujno"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ĵ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ĵuro"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ĵurnalo"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>	
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="K"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="knabo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ĵurnalo"
+								android:layout_below="@id/vorto1"
+								android:onClick="hoko"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="L"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ŝelo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="alto"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="M"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ame"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="iam"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="N"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="kanabo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ruino"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="O"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="oro"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ravo"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="P"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="peco"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="peso"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="R"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="roko"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ero"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="S"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="selo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="scii"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>	
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ŝ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ŝerco"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="ŝia"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="T"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="tio"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="felto"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="U"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="ju"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="agu"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>	
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Ŭ"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="aŭto"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="adiaŭ"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>			
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="V"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="vejno"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="kvita"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>		
+
+		            <LinearLayout style="@style/plenigi_patro">
+						<RelativeLayout style="@style/plenigi_patro.centro">
+		            		<Button
+		            			android:id="@+id/litero"
+		            			android:text="Z"
+		            			android:drawableBottom="@drawable/sono"
+		            			android:onClick="ludu"
+								
+								style="@style/granda_butono"
+		            		 />
+		            		<Button
+		            			android:id="@+id/vorto1"
+		            			android:text="pezo"
+								android:layout_below="@id/litero"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            		<Button
+		            			android:text="okazi"
+								android:layout_below="@id/vorto1"
+								android:onClick="ludu"
+								
+								style="@style/malgranda_butono"
+		            		 />
+		            	</RelativeLayout>
+		            </LinearLayout>						
             	</org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher>
             </LinearLayout>
         </FrameLayout>

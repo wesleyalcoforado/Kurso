@@ -72,6 +72,17 @@
     <style name="plenigi_patro.centro">
     	<item name="android:gravity">center</item>
     </style>    
+	
+    <style name="granda_butono">
+    	<item name="android:layout_width">128dip</item>
+    	<item name="android:layout_height">128dip</item>
+    	<item name="android:textSize">64dip</item>
+    </style>    	
+	
+    <style name="malgranda_butono">
+    	<item name="android:layout_width">128dip</item>
+    	<item name="android:layout_height">wrap_content</item>
+    </style> 	
     
     <color name="fonaKoloro">#F6FFE0</color>
     <color name="malfonaKoloro">#454839</color>
