@@ -9,6 +9,10 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class Utila {
     public static void montriAverton(String mesagxo, Context kunteksto){
@@ -20,6 +24,24 @@ public class Utila {
     	AlertDialog alert = constructor.create();
     	alert.show();
     }
+    
+	public static void ludu(View v, Context kunteksto){
+		String vorto = "";
+		if(v instanceof ImageButton){
+			ImageButton image = (ImageButton)v;
+			vorto = image.getTag().toString();
+		}else{
+			Button butono = (Button)v;
+			vorto = butono.getText().toString();
+		}
+		
+		try{
+			int sono_identigilo = akiriSonoIdentigilon(vorto.toLowerCase(), kunteksto);
+			luduGxisLaFino(sono_identigilo, kunteksto);
+		}catch(Exception e){
+			Toast.makeText(kunteksto, "Arquivo de som não encontrado!", Toast.LENGTH_SHORT).show();
+		}
+	}    
     
     public static void luduGxisLaFino(int sonoId, Context kunteksto){
     	MediaPlayer mp = MediaPlayer.create(kunteksto, sonoId);

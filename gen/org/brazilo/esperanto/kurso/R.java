@@ -21,20 +21,29 @@ public final class R {
         public static final int malfonaKoloro=0x7f060001;
     }
     public static final class drawable {
-        public static final int gradiento_orangxa_nigra=0x7f020000;
-        public static final int gradiento_purpura_nigra=0x7f020001;
-        public static final int gradiento_verda_nigra=0x7f020002;
-        public static final int icon=0x7f020003;
-        public static final int listero=0x7f020004;
-        public static final int listero_bildo=0x7f020005;
-        public static final int sago=0x7f020006;
-        public static final int sago_kolora=0x7f020007;
-        public static final int sono=0x7f020008;
-        public static final int stelo=0x7f020009;
+        public static final int amiko=0x7f020000;
+        public static final int amikoj=0x7f020001;
+        public static final int bela=0x7f020002;
+        public static final int belaj=0x7f020003;
+        public static final int floro=0x7f020004;
+        public static final int floroj=0x7f020005;
+        public static final int gradiento_orangxa_nigra=0x7f020006;
+        public static final int gradiento_purpura_nigra=0x7f020007;
+        public static final int gradiento_verda_nigra=0x7f020008;
+        public static final int icon=0x7f020009;
+        public static final int listero=0x7f02000a;
+        public static final int listero_bildo=0x7f02000b;
+        public static final int patro=0x7f02000c;
+        public static final int patroj=0x7f02000d;
+        public static final int sago=0x7f02000e;
+        public static final int sago_kolora=0x7f02000f;
+        public static final int sono=0x7f020010;
+        public static final int stelo=0x7f020011;
     }
     public static final class id {
-        public static final int foriri=0x7f0a0015;
-        public static final int kio_estas_esperanto=0x7f0a0014;
+        public static final int bildo1=0x7f0a0012;
+        public static final int foriri=0x7f0a0016;
+        public static final int kio_estas_esperanto=0x7f0a0015;
         public static final int leciono_1_finajxoj_adjektivoj=0x7f0a000b;
         public static final int leciono_1_finajxoj_butono_adjektivoj=0x7f0a000a;
         public static final int leciono_1_finajxoj_butono_substantivoj=0x7f0a0008;
@@ -49,8 +58,8 @@ public final class R {
         public static final int leciono_1_pp_specialaj=0x7f0a0011;
         public static final int linearLayout1=0x7f0a0001;
         public static final int litero=0x7f0a0004;
-        public static final int nomo_leciono=0x7f0a0012;
-        public static final int sago=0x7f0a0013;
+        public static final int nomo_leciono=0x7f0a0013;
+        public static final int sago=0x7f0a0014;
         public static final int stelo=0x7f0a0000;
         public static final int tabEkzerco=0x7f0a0003;
         public static final int tabKlarigo=0x7f0a0002;
@@ -59,15 +68,14 @@ public final class R {
     public static final class layout {
         public static final int kio_estas=0x7f030000;
         public static final int leciono_1_alfabeto=0x7f030001;
-        public static final int leciono_1_alfabeto_1=0x7f030002;
-        public static final int leciono_1_finajxoj=0x7f030003;
-        public static final int leciono_1_personaj_pronomoj=0x7f030004;
-        public static final int leciono_1_pluralo=0x7f030005;
-        public static final int leciono_1_posedaj_pronomoj=0x7f030006;
-        public static final int leciono_1_vortareto=0x7f030007;
-        public static final int lecionoj=0x7f030008;
-        public static final int linio=0x7f030009;
-        public static final int principa=0x7f03000a;
+        public static final int leciono_1_finajxoj=0x7f030002;
+        public static final int leciono_1_personaj_pronomoj=0x7f030003;
+        public static final int leciono_1_pluralo=0x7f030004;
+        public static final int leciono_1_posedaj_pronomoj=0x7f030005;
+        public static final int leciono_1_vortareto=0x7f030006;
+        public static final int lecionoj=0x7f030007;
+        public static final int linio=0x7f030008;
+        public static final int principa=0x7f030009;
     }
     public static final class menu {
         public static final int principa=0x7f090000;
@@ -311,11 +319,15 @@ public final class R {
     public static final class style {
         public static final int Hauxto=0x7f050000;
         public static final int Hauxto_Light=0x7f050001;
+        public static final int bildo_centro=0x7f05000d;
+        public static final int bildo_signifo=0x7f05000e;
         public static final int fonkaplinio=0x7f050002;
         public static final int fonlistbildo=0x7f050007;
         public static final int fonlisto=0x7f050006;
+        public static final int granda_butono=0x7f05000b;
         public static final int kaplinibildo=0x7f050004;
         public static final int kaplinio=0x7f050003;
+        public static final int malgranda_butono=0x7f05000c;
         public static final int plenigi_patro=0x7f050008;
         public static final int plenigi_patro_centro=0x7f05000a;
         public static final int plenigi_patro_teksto=0x7f050009;
