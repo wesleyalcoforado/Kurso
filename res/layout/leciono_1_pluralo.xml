@@ -166,6 +166,153 @@
 									style="@style/bildo_signifo"/>
 						</RelativeLayout>
 					</LinearLayout>	
+					
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/sana"
+		            				android:id="@+id/bildo1"
+		            				android:tag="sana"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/sana"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/sanaj"
+		            				android:id="@+id/bildo1"
+		            				android:tag="sanaj"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/sanaj"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/bela_floro"
+		            				android:id="@+id/bildo1"
+		            				android:tag="bela floro"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/bela_floro"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/belaj_floroj"
+		            				android:id="@+id/bildo1"
+		            				android:tag="belaj floroj"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/belaj_floroj"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>			
+					
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/sana_patro"
+		            				android:id="@+id/bildo1"
+		            				android:tag="sana patro"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/sana_patro"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/sanaj_patroj"
+		            				android:id="@+id/bildo1"
+		            				android:tag="sanaj patroj"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/sanaj_patroj"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/bona_amiko"
+		            				android:id="@+id/bildo1"
+		            				android:tag="bona amiko"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/bona_amiko"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>		
+					
+					<LinearLayout style="@style/plenigi_patro">
+		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
+		            			<ImageButton 
+		            				android:src="@drawable/bonaj_amikoj"
+		            				android:id="@+id/bildo1"
+		            				android:tag="bonaj amikoj"
+		            				android:onClick="ludu"
+		            				
+		            				style="@style/bildo_centro"
+		            				/>
+								<TextView 
+									android:layout_below="@id/bildo1"
+									android:text="@string/bonaj_amikoj"
+									
+									style="@style/bildo_signifo"/>
+						</RelativeLayout>
+					</LinearLayout>																					
             	</org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher>
             </LinearLayout>
         </FrameLayout>
