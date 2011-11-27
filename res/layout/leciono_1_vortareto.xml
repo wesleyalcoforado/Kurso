@@ -316,8 +316,8 @@
 			</RelativeLayout>	 
 		</LinearLayout>		
           	    			
-			
-          	<!-- <RelativeLayout style="@style/plenigi_patro.centro">
+		<LinearLayout style="@style/plenigi_patro">
+			<RelativeLayout style="@style/plenigi_patro.centro">
       			<ImageButton 
 	   				android:src="@drawable/nova"
 	   				android:id="@+id/bildo1"
@@ -332,8 +332,9 @@
 					
 					style="@style/bildo_signifo"/>
 			</RelativeLayout>            	  
-			
-			
+		</LinearLayout>		
+		    			
+		<LinearLayout style="@style/plenigi_patro">
           	<RelativeLayout style="@style/plenigi_patro.centro">
       			<ImageButton 
 	   				android:src="@drawable/bona"
@@ -348,7 +349,8 @@
 					android:text="@string/bona"
 					
 					style="@style/bildo_signifo"/>
-			</RelativeLayout>        -->    
+			</RelativeLayout>
+		</LinearLayout>		
 			
 		<LinearLayout style="@style/plenigi_patro">
           	<RelativeLayout style="@style/plenigi_patro.centro">
