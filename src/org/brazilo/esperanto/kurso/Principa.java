@@ -11,6 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import org.brazilo.esperanto.kurso.lecionoj.leciono_01.Leciono1;
+import org.brazilo.esperanto.kurso.lecionoj.leciono_02.Leciono2;
 import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 public class Principa extends ListActivity {
@@ -32,14 +33,16 @@ public class Principa extends ListActivity {
     @Override
     protected void onListItemClick(ListView l, View v, int position, long id) {
     	super.onListItemClick(l, v, position, id);
-    	
+
+    	Intent intent;
     	switch(position){
 		case 0:
-			Intent intent = new Intent(this.getApplicationContext(), Leciono1.class);
+			intent = new Intent(this.getApplicationContext(), Leciono1.class);
 			this.startActivity(intent);
 	    	break;
 		case 1:
-			Utila.montriAverton("Lição 2", this);
+			intent = new Intent(this.getApplicationContext(), Leciono2.class);
+			this.startActivity(intent);
 	    	break;
 		case 2:
 			Utila.montriAverton("Lição 3", this);

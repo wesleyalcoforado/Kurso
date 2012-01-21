@@ -6,6 +6,7 @@
     <string name="klarigo">Explicação</string>
     <string name="ekzercoj">Exercícios</string>
     <string name="leciono_1">Lição 1</string>
+    <string name="leciono_2">Lição 2</string>
     <string-array name="menu_lecionoj">
         <item>Leciono 1</item>
         <item>Leciono 2</item>
@@ -44,6 +45,17 @@
         <item>Compreensão auditiva II</item>
         <item>Vorto-Ludo</item>
     </string-array>
+    <string-array name="menu_leciono_2">
+        <item>Sufixo -ino</item>
+        <item>Acusativo (-n)</item>
+        <item>Prefixo mal-</item>
+        <item>Música</item>
+        <item>Vocabulário</item>
+        <item>Pronúncia</item>
+        <item>Compreensão auditiva</item>
+        <item>Vorto-Ludo</item>
+        <item>Exercícios</item>
+    </string-array>    
     <string name="butono_ok">OK</string>
     <string name="fenestro_averto">Alerta!</string>
     <string name="leciono_1_alfabeto">Em esperanto, as palavras são escritas exatamente como são pronunciadas, e são pronunciadas exatamente conforme o som de cada letra escrita. A sílaba forte é sempre a penúltima. Na aba de exercícios, clique para ouvir a pronúncia e repita em voz alta (deslize a tela para ouvir cada letra).</string>

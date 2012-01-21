@@ -5,7 +5,7 @@
       android:versionName="1.0">
     <uses-sdk android:minSdkVersion="5" />
 
-    <application android:label="@string/app_name" android:icon="@drawable/icon">
+    <application android:label="@string/app_name" android:icon="@drawable/icon" android:debuggable="true">
         <activity android:name=".Principa"
                   android:label="@string/app_name" android:theme="@style/Hauxto">
             <intent-filter>
@@ -21,6 +21,9 @@
         <activity android:label="@string/vortareto" android:name=".lecionoj.leciono_01.Vortareto" android:theme="@style/Hauxto.Light"></activity>
         <activity android:label="@string/pluralo" android:name=".lecionoj.leciono_01.Pluralo" android:theme="@style/Hauxto.Light"></activity>
         <activity android:label="@string/posedaj_pronomoj" android:name=".lecionoj.leciono_01.PosedajPronomoj" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:name=".lecionoj.leciono_02.Leciono2" android:theme="@style/Hauxto">
+        </activity>
+        <activity android:name=".lecionoj.leciono_02.Muzikvideo" android:theme="@style/Hauxto.Light" android:screenOrientation="landscape"></activity>
 
     </application>
 </manifest>
