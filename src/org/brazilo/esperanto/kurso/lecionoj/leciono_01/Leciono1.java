@@ -53,7 +53,11 @@ public class Leciono1 extends ListActivity {
 		case 6:
 			intent = new Intent(this, PosedajPronomoj.class);
 			startActivity(intent);
-	    	break;	    	
+	    	break;	
+		case 8:
+			intent = new Intent(this, Prononco.class);
+			startActivity(intent);
+	    	break;	
     	}
     	
     }	
