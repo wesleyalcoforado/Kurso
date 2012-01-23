@@ -57,6 +57,7 @@
         <item>Exercícios</item>
     </string-array>    
     <string name="butono_ok">OK</string>
+    <string name="butono_ludi">Tocar</string>
     <string name="fenestro_averto">Alerta!</string>
     <string name="leciono_1_alfabeto">Em esperanto, as palavras são escritas exatamente como são pronunciadas, e são pronunciadas exatamente conforme o som de cada letra escrita. A sílaba forte é sempre a penúltima. Na aba de exercícios, clique para ouvir a pronúncia e repita em voz alta (deslize a tela para ouvir cada letra).</string>
     <string name="esperanta_alfabeto">O alfabeto do esperanto</string>
@@ -140,5 +141,5 @@
     <string name="nia_floro">nossa flor</string>
     <string name="niaj_floroj">nossas flores</string>
     <string name="glitigu_ekranon">Deslize a tela para os lados para visualizar o conteúdo.</string>
-    
+    <string name="leciono_2_muzikvideo">Vamos ouvir agora uma canção em Esperanto, «Jen», do grupo argentino La Porkoj, premiado no concurso internacional de arte da Associação Mundial de Esperanto. Jen é equivalente ao «eis», em português. Pressione o botão abaixo para iniciar a canção.</string>
 </resources>

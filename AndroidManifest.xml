@@ -3,7 +3,7 @@
       package="org.brazilo.esperanto.kurso"
       android:versionCode="1"
       android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="5" />
+    <uses-sdk android:minSdkVersion="4" />
     <uses-permission android:name="android.permission.RECORD_AUDIO"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
@@ -25,8 +25,9 @@
         <activity android:label="@string/posedaj_pronomoj" android:name=".lecionoj.leciono_01.PosedajPronomoj" android:theme="@style/Hauxto.Light"></activity>
         <activity android:name=".lecionoj.leciono_02.Leciono2" android:theme="@style/Hauxto">
         </activity>
-        <activity android:name=".lecionoj.leciono_02.Muzikvideo" android:theme="@style/Hauxto.Light" android:screenOrientation="landscape"></activity>
+        <activity android:name=".lecionoj.leciono_02.Muzikvideo" android:theme="@style/Hauxto.Light"></activity>
         <activity android:theme="@style/Hauxto.Light" android:name=".lecionoj.leciono_01.Prononco"></activity>
+        <activity android:theme="@style/Hauxto.Light" android:screenOrientation="landscape" android:name=".lecionoj.leciono_02.Ludilo"></activity>
 
     </application>
 </manifest>

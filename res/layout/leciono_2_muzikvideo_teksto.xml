@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/plenigi_patro" >
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/plenigi_patro.teksto"
+        android:layout_height="wrap_content"
+        android:text="@string/leciono_2_muzikvideo" />
+
+    <Button
+        android:id="@id/button1"
+        style="@style/malgranda_butono"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:onClick="LudiVideon"
+        android:drawableLeft="@drawable/video"
+        android:text="@string/butono_ludi"
+        />
+
+</RelativeLayout>
