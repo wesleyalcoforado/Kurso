@@ -58,6 +58,11 @@ public class Leciono1 extends ListActivity {
 			intent = new Intent(this, Prononco.class);
 			startActivity(intent);
 	    	break;	
+		case 9:
+			intent = new Intent(this, Auskultado.class);
+			startActivity(intent);
+	    	break;		    	
+	    	
     	}
     	
     }	

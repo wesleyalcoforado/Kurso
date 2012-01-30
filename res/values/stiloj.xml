@@ -101,5 +101,21 @@
     <color name="malfonaKoloro">#454839</color>
     <color name="listoKoloro">#474642</color>
     <color name="listoKoloroKlakita">#A2D339</color>
-    
+
+    <style name="menuo_bildo">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:padding">3dip</item>
+    	<item name="android:layout_marginLeft">12dip</item>
+	</style>
+	         
+    <style name="menuo_tekstobildo">
+    	<item name="android:layout_width">wrap_content</item>
+    	<item name="android:layout_height">wrap_content</item>
+    	<item name="android:padding">3dip</item>
+    	<item name="android:layout_gravity">center_vertical</item>
+    	<item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+    	<item name="android:textColor">@color/fonaKoloro</item>
+	</style>         
+        
 </resources>
