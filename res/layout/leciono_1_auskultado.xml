@@ -66,7 +66,7 @@
         android:id="@+id/textView1"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
-        android:text="lalala"
+        android:text="vortoj"
         android:textAppearance="?android:attr/textAppearanceMedium"
 
 	    android:layout_above="@+id/button2"
@@ -81,8 +81,7 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_centerHorizontal="true"
-        android:drawableBottom="@drawable/halti"
-         />
+        android:drawableBottom="@drawable/halti" />
 
     <Button
         android:id="@+id/button3"
@@ -90,7 +89,9 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_toLeftOf="@+id/button2"
-        android:drawableBottom="@drawable/ludi" />
+        android:drawableBottom="@drawable/ludi" 
+        android:onClick="KomenciTeston"
+        />
 
     <Button
         android:id="@+id/button1"
@@ -98,7 +99,8 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_toRightOf="@+id/button2"
-        android:drawableBottom="@drawable/ripeti" />
+        android:drawableBottom="@drawable/ripeti"
+        android:onClick="LudiVorton" />
 
 </RelativeLayout>
 <!-- 

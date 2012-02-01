@@ -143,4 +143,16 @@
     <string name="glitigu_ekranon">Deslize a tela para os lados para visualizar o conteúdo.</string>
     <string name="leciono_2_muzikvideo">Vamos ouvir agora uma canção em Esperanto, «Jen», do grupo argentino La Porkoj, premiado no concurso internacional de arte da Associação Mundial de Esperanto. Jen é equivalente ao «eis», em português. Pressione o botão abaixo para iniciar a canção.</string>
     <string name="teksto_auskultado">No exercício seguinte, você ouvirá uma palavra ou frase e deverá escrevê-la no espaço indicado. Se você acertar, a palavra ou frase aparecerá no painel, do contrário, a palavra será ouvida de novo em outro momento durante o exercício. Você deverá acertar pelo menos 70%.</string>
+    <string-array name="auskultlisto_2">
+        <item>amiko</item>
+        <item>frato</item>
+        <item>kafo</item>
+        <item>ilia</item>
+        <item>bona_amiko</item>    
+        <item>nia_floro</item>
+        <item>seka</item>
+        <item>bona</item>
+        <item>blanka</item>
+        <item>biskvito</item>
+    </string-array>
 </resources>

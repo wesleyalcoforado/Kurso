@@ -9,6 +9,7 @@ package org.brazilo.esperanto.kurso;
 
 public final class R {
     public static final class array {
+        public static final int auskultlisto_2=0x7f080003;
         public static final int menu_leciono_1=0x7f080001;
         public static final int menu_leciono_2=0x7f080002;
         public static final int menu_lecionoj=0x7f080000;

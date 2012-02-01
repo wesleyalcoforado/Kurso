@@ -35,13 +35,17 @@ public class Utila {
 			vorto = butono.getText().toString();
 		}
 		
+		ludu(vorto, kunteksto);
+	}    
+	
+	public static void ludu(String vorto, Context kunteksto) {
 		try{
 			int sono_identigilo = akiriSonoIdentigilon(vorto.toLowerCase(), kunteksto);
 			luduGxisLaFino(sono_identigilo, kunteksto);
 		}catch(Exception e){
 			Toast.makeText(kunteksto, "Arquivo de som não encontrado!", Toast.LENGTH_SHORT).show();
 		}
-	}    
+	}
     
     public static void luduGxisLaFino(int sonoId, Context kunteksto){
     	MediaPlayer mp = MediaPlayer.create(kunteksto, sonoId);
