@@ -8,7 +8,9 @@
         android:id="@+id/editText1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" >
+        android:layout_alignParentBottom="true" 
+        android:enabled="false"
+        >
 
         <requestFocus />
     </EditText>
@@ -86,7 +88,10 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_centerHorizontal="true"
-        android:drawableBottom="@drawable/halti" />
+        android:drawableBottom="@drawable/ic_but_halti_unselected" 
+        android:onClick="finiTeston"
+        android:enabled="false"
+        />
 
     <Button
         android:id="@+id/button3"
@@ -94,7 +99,7 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_toLeftOf="@+id/button2"
-        android:drawableBottom="@drawable/ludi" 
+        android:drawableBottom="@drawable/ic_but_ludi_selected" 
         android:onClick="komenciTeston"
         />
 
@@ -104,7 +109,9 @@
         android:layout_height="48dip"
         android:layout_above="@+id/editText1"
         android:layout_toRightOf="@+id/button2"
-        android:drawableBottom="@drawable/ripeti"
-        android:onClick="ludiVorton" />
+        android:drawableBottom="@drawable/ic_but_ripeti_unselected"
+        android:onClick="ludiVorton" 
+        android:enabled="false"
+        />
 
 </RelativeLayout>

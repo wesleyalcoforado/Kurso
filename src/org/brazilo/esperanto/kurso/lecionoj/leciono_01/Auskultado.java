@@ -9,9 +9,9 @@ import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.MonthDisplayHelper;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -25,6 +25,7 @@ public class Auskultado extends Activity{
 	private ArrayList<String> nekorektajVortoj;
 	private String nunaVorto;
 	private Random hazardilo;
+	private boolean testoAktiva;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -33,13 +34,8 @@ public class Auskultado extends Activity{
 		
 		hazardilo = new Random();
 		
-		iniciatiVortlistojn();
-		kalkuliTrafojn();
-		
 		EditText tekstujo = (EditText)findViewById(R.id.editText1);
 		tekstujo.setOnKeyListener(new KeyListener());
-		
-		((TextView)findViewById(R.id.textView1)).setText(null);
 	}
 	
 	private void iniciatiVortlistojn() {
@@ -58,21 +54,19 @@ public class Auskultado extends Activity{
 		TextView kiomDaTrafoj = (TextView)findViewById(R.id.kiom_da_trafoj);
 		TextView procentoDaTrafoj = (TextView)findViewById(R.id.trafo_procento);
 		
-		Integer kvantoVortoj = vortoj.size();
-		Integer kvantoEraroj = nekorektajVortoj.size();
-		Integer kvantoTrafoj = korektajVortoj.size();
-		Integer procento = 0;
-		if(kvantoEraroj + kvantoTrafoj > 0) {
-			procento = Math.round(kvantoTrafoj * 100 / (kvantoEraroj + kvantoTrafoj));
-		}
-		
-		kiomDaVortoj.setText(kvantoVortoj.toString());
-		kiomDaEraroj.setText(kvantoEraroj.toString());
-		kiomDaTrafoj.setText(kvantoTrafoj.toString());
-		procentoDaTrafoj.setText(procento + "%");
+		kiomDaVortoj.setText(getKvantoDaVortoj().toString());
+		kiomDaEraroj.setText(getKvantoDaEraroj().toString());
+		kiomDaTrafoj.setText(getKvantoDaTrafoj().toString());
+		procentoDaTrafoj.setText(getProcento() + "%");
 	}
 	
 	public void komenciTeston(View view) {
+		testoAktiva = true;
+		arangxiButonojn();
+		
+		iniciatiVortlistojn();
+		kalkuliTrafojn();
+		
 		venontaVorto();
 	}
 	
@@ -81,20 +75,54 @@ public class Auskultado extends Activity{
 			nunaVorto = preniVorton();
 			ludiVorton(null);
 		}catch (MalplenaVortlistoException e) {
-			Integer kvantoEraroj = nekorektajVortoj.size();
-			Integer kvantoTrafoj = korektajVortoj.size();
-			Integer procento = 0;
-			if(kvantoEraroj + kvantoTrafoj > 0) {
-				procento = Math.round(kvantoTrafoj * 100 / (kvantoEraroj + kvantoTrafoj));
-			}
+			finiTeston(null);
+		}
+	}
+	
+	public void finiTeston(View view){
+		if(getProcento() >= 70){
+			Utila.gratuli(this);
+			Utila.montriAverton(R.string.gratulon_via_rezulto_estis_tre_bona, this);
+		}else{
+			Utila.provuDenove(this);
+			Utila.montriAverton(R.string.via_rezulto_ne_estis_tre_bona_provu_denove, this);
+		}
+		
+		testoAktiva = false;
+		arangxiButonojn();
+	}
+	
+	private void arangxiButonojn(){
+		Button ludi = (Button)findViewById(R.id.button3);
+		Button halti = (Button)findViewById(R.id.button2);
+		Button ripeti = (Button)findViewById(R.id.button1);
+		
+		EditText tekstujo = (EditText)findViewById(R.id.editText1);
+		
+		if(testoAktiva){
+			ludi.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_ludi_unselected);
+			halti.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_halti_selected);
+			ripeti.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_ripeti_selected);
 			
-			if(procento >= 70){
-				Utila.gratuli(this);
-				Utila.montriAverton(R.string.gratulon_via_rezulto_estis_tre_bona, this);
-			}else{
-				Utila.provuDenove(this);
-				Utila.montriAverton(R.string.via_rezulto_ne_estis_tre_bona_provu_denove, this);
-			}
+			ludi.setEnabled(false);
+			halti.setEnabled(true);
+			ripeti.setEnabled(true);
+			
+			TextView tekstaro = (TextView)findViewById(R.id.textView1);
+			tekstaro.setText(null);
+			
+			tekstujo.setEnabled(true);
+			tekstujo.setText(null);
+		}else{
+			ludi.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_ludi_selected);
+			halti.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_halti_unselected);
+			ripeti.setCompoundDrawablesWithIntrinsicBounds(0, 0, 0, R.drawable.ic_but_ripeti_unselected);
+
+			ludi.setEnabled(true);
+			halti.setEnabled(false);
+			ripeti.setEnabled(false);
+			
+			tekstujo.setEnabled(false);
 		}
 	}
 	
@@ -114,7 +142,9 @@ public class Auskultado extends Activity{
 	private boolean testiVorton(String vorto) {
 		boolean rezulto = false;
 		
-		if(nunaVorto.trim().equalsIgnoreCase(vorto.trim())) {
+		String traktitaVorto = Utila.konvertiAlCxapelitaj(vorto.trim());
+		
+		if(nunaVorto.trim().equalsIgnoreCase(traktitaVorto)) {
 			korektajVortoj.add(nunaVorto);
 			vortoj.remove(nunaVorto);
 			kalkuliTrafojn();
@@ -135,19 +165,41 @@ public class Auskultado extends Activity{
 		Toast.makeText(this, nunaVorto, Toast.LENGTH_LONG).show();
 		ludiVorton(null);
 	}
+	
+	private Integer getKvantoDaVortoj(){
+		return vortoj.size();
+	}
+	
+	private Integer getKvantoDaTrafoj(){
+		return korektajVortoj.size();
+	}
+	
+	private Integer getKvantoDaEraroj(){
+		return nekorektajVortoj.size();
+	}
+	
+	private Integer getProcento(){
+		Integer procento = 0;
+		if((getKvantoDaEraroj() + getKvantoDaTrafoj()) > 0) {
+			procento = Math.round(getKvantoDaTrafoj() * 100 / (getKvantoDaTrafoj() + getKvantoDaEraroj()));
+		}
+		
+		return procento;
+	}
 
 	protected class KeyListener implements View.OnKeyListener {
 
 		@Override
-		public boolean onKey(View v, int keyCode, KeyEvent event) {
+		public boolean onKey(View v, int keyCode, KeyEvent event) {	
 			if(event.getAction() == KeyEvent.ACTION_DOWN && keyCode == KeyEvent.KEYCODE_ENTER) {
 				EditText tekstujo = (EditText)v;
 				String teksto = tekstujo.getText().toString();
 				tekstujo.getText().clear();
 				
+				String vorto = nunaVorto;
 				if(testiVorton(teksto)){
 					TextView tekstaro = (TextView)findViewById(R.id.textView1);
-					tekstaro.append(teksto + "\n");
+					tekstaro.append(vorto + "\n");
 					rulumiMalsupren();
 				}
 				

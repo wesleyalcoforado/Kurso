@@ -99,6 +99,30 @@ public class Utila {
     	return vorto;
     }
     
+    public static String konvertiAlCxapelitaj(String vorto){
+    	HashMap<String, String> paroj = new HashMap<String, String>();
+    	vorto = vorto.replaceAll("X", "x");
+    	
+    	paroj.put("cx", "ĉ");
+    	paroj.put("jx", "ĵ");
+    	paroj.put("sx", "ŝ");
+    	paroj.put("gx", "ĝ");
+    	paroj.put("hx", "ĥ");
+    	paroj.put("ux", "ŭ");
+    	paroj.put("Cx", "Ĉ");
+    	paroj.put("Jx", "Ĵ");
+    	paroj.put("Sx", "Ŝ");
+    	paroj.put("Gx", "Ĝ");
+    	paroj.put("Hx", "Ĥ");
+    	paroj.put("Ux", "Ŭ");
+    	
+    	for(String sxlosilo: paroj.keySet()){
+    		vorto = vorto.replaceAll(sxlosilo, paroj.get(sxlosilo));
+    	}
+    	
+    	return vorto;
+    }
+    
     public static void gratuli(Context kunteksto) {
     	int indekso = getHazardilo().nextInt(8) + 1;
     	ludu("gratulo"+indekso, kunteksto);
