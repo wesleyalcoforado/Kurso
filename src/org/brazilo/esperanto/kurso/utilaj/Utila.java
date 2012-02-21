@@ -1,6 +1,7 @@
 package org.brazilo.esperanto.kurso.utilaj;
 
 import java.util.HashMap;
+import java.util.Random;
 
 import org.brazilo.esperanto.kurso.R;
 
@@ -15,6 +16,20 @@ import android.widget.ImageButton;
 import android.widget.Toast;
 
 public class Utila {
+	private static Random hazardilo;
+	private static Random getHazardilo() {
+		if(hazardilo == null){
+			hazardilo = new Random();
+		}
+		
+		return hazardilo;
+	}
+	
+    public static void montriAverton(int mesagxoId, Context kunteksto){
+    	String mesagxo = kunteksto.getResources().getText(mesagxoId).toString();
+    	montriAverton(mesagxo, kunteksto);
+    }
+	
     public static void montriAverton(String mesagxo, Context kunteksto){
     	AlertDialog.Builder constructor = new AlertDialog.Builder(kunteksto);
     	constructor.setMessage(mesagxo);
@@ -82,6 +97,21 @@ public class Utila {
     	}
     	
     	return vorto;
+    }
+    
+    public static void gratuli(Context kunteksto) {
+    	int indekso = getHazardilo().nextInt(8) + 1;
+    	ludu("gratulo"+indekso, kunteksto);
+    }
+    
+    public static void nei(Context kunteksto) {
+    	int indekso = getHazardilo().nextInt(4) + 1;
+    	ludu("ne"+indekso, kunteksto);
+    }
+    
+    public static void provuDenove(Context kunteksto) {
+    	int indekso = getHazardilo().nextInt(8) + 1;
+    	ludu("nebona"+indekso, kunteksto);
     }
     
 }

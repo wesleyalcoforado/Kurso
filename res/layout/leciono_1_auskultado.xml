@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:background="@color/malfonaKoloro" >
+        android:background="@color/malfonaKoloro"
+         >
 
         <TableRow
             android:layout_width="fill_parent"
@@ -62,17 +63,21 @@
         </TableRow>
     </TableLayout>
 
-    <TextView
-        android:id="@+id/textView1"
+    <ScrollView 
+        android:id="@+id/scrollView1"
 	    android:layout_width="fill_parent"
 	    android:layout_height="fill_parent"
-        android:text="vortoj"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-
 	    android:layout_above="@+id/button2"
-	    android:layout_below="@+id/tableLayout1"
-	    android:scrollbars="vertical"
-         />
+	    android:layout_below="@+id/tableLayout1" 
+	    >
+	    <TextView
+	        android:id="@+id/textView1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+	        android:text=""
+	        android:textAppearance="?android:attr/textAppearanceMedium"
+	         />
+    </ScrollView>
 	    
 
     <Button
@@ -90,7 +95,7 @@
         android:layout_above="@+id/editText1"
         android:layout_toLeftOf="@+id/button2"
         android:drawableBottom="@drawable/ludi" 
-        android:onClick="KomenciTeston"
+        android:onClick="komenciTeston"
         />
 
     <Button
@@ -100,158 +105,6 @@
         android:layout_above="@+id/editText1"
         android:layout_toRightOf="@+id/button2"
         android:drawableBottom="@drawable/ripeti"
-        android:onClick="LudiVorton" />
+        android:onClick="ludiVorton" />
 
 </RelativeLayout>
-<!-- 
-
-
-
-
-
-
-
-
-
-
-
-<?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:stretchColumns="1">
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:text="Open..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-O"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:text="Save..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-S"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:text="Save As..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-Shift-S"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
-
-    <TableRow>
-        <TextView
-            android:text="X"
-            android:padding="3dip" />
-        <TextView
-            android:text="Import..."
-            android:padding="3dip" />
-    </TableRow>
-
-    <TableRow>
-        <TextView
-            android:text="X"
-            android:padding="3dip" />
-        <TextView
-            android:text="Export..."
-            android:padding="3dip" />
-        <TextView
-            android:text="Ctrl-E"
-            android:gravity="right"
-            android:padding="3dip" />
-    </TableRow>
-
-    <View
-        android:layout_height="2dip"
-        android:background="#FF909090" />
-
-    <TableRow>
-        <TextView
-            android:layout_column="1"
-            android:text="Quit"
-            android:padding="3dip" />
-    </TableRow>
-</TableLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<TabHost 
-  xmlns:android="http://schemas.android.com/apk/res/android"
-  android:id="@android:id/tabhost" 
-  style="@style/plenigi_patro">
-    <LinearLayout 
-      android:id="@+id/linearLayout1" 
-      style="@style/plenigi_patro" 
-      android:orientation="vertical">
-        <TabWidget 
-          android:layout_width="fill_parent" 
-          android:layout_height="wrap_content" 
-          android:id="@android:id/tabs" />
-        <FrameLayout 
-          android:layout_width="fill_parent" 
-          android:layout_height="fill_parent" 
-          android:id="@android:id/tabcontent">
-            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabKlarigo" android:gravity="center">
-            	<TextView android:text="@string/teksto_auskultado" style="@style/plenigi_patro.teksto" />
-            </LinearLayout>
-            <LinearLayout style="@style/plenigi_patro" android:id="@+id/tabEkzerco">
-            	<org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher style="@style/plenigi_patro">
-					<LinearLayout style="@style/plenigi_patro">
-		            	<RelativeLayout style="@style/plenigi_patro.centro" android:gravity="center">
-		            			<ImageButton 
-		            				android:src="@drawable/amiko"
-		            				android:id="@+id/bildo1"
-		            				android:tag="amiko"
-		            				android:onClick="ludu"
-		            				
-		            				style="@style/bildo_centro"
-		            				/>
-								<TextView 
-									android:layout_below="@id/bildo1"
-									android:text="@string/amiko"
-									
-									style="@style/bildo_signifo"/>
-						</RelativeLayout>
-					</LinearLayout>
-																			
-            	</org.brazilo.esperanto.kurso.eksteraj.RealViewSwitcher>
-            </LinearLayout>
-        </FrameLayout>
-    </LinearLayout>
-</TabHost>-->

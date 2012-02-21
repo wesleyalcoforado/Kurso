@@ -148,11 +148,14 @@
         <item>frato</item>
         <item>kafo</item>
         <item>ilia</item>
-        <item>bona_amiko</item>    
-        <item>nia_floro</item>
+        <item>bona amiko</item>    
+        <item>nia floro</item>
         <item>seka</item>
         <item>bona</item>
         <item>blanka</item>
         <item>biskvito</item>
     </string-array>
+    <string name="gratulon_via_rezulto_estis_tre_bona">Parabéns! O seu resultado foi muito bom.</string>
+    <string name="via_rezulto_ne_estis_tre_bona_provu_denove">Seu resultado não foi muito bom. Tente novamente.</string>
+        
 </resources>

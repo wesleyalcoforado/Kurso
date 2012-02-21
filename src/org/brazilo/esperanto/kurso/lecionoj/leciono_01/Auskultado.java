@@ -4,15 +4,18 @@ import java.util.ArrayList;
 import java.util.Random;
 
 import org.brazilo.esperanto.kurso.R;
+import org.brazilo.esperanto.kurso.exceptions.MalplenaVortlistoException;
 import org.brazilo.esperanto.kurso.utilaj.Utila;
 
-import android.R.integer;
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.MonthDisplayHelper;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.ScrollView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class Auskultado extends Activity{
@@ -30,8 +33,8 @@ public class Auskultado extends Activity{
 		
 		hazardilo = new Random();
 		
-		IniciatiVortlistojn();
-		KalkuliTrafojn();
+		iniciatiVortlistojn();
+		kalkuliTrafojn();
 		
 		EditText tekstujo = (EditText)findViewById(R.id.editText1);
 		tekstujo.setOnKeyListener(new KeyListener());
@@ -39,7 +42,7 @@ public class Auskultado extends Activity{
 		((TextView)findViewById(R.id.textView1)).setText(null);
 	}
 	
-	private void IniciatiVortlistojn() {
+	private void iniciatiVortlistojn() {
 		vortoj = new ArrayList<String>();
 		korektajVortoj = new ArrayList<String>();
 		nekorektajVortoj = new ArrayList<String>();
@@ -49,7 +52,7 @@ public class Auskultado extends Activity{
 		}
 	}
 	
-	private void KalkuliTrafojn() {
+	private void kalkuliTrafojn() {
 		TextView kiomDaVortoj = (TextView)findViewById(R.id.kiom_da_vortoj);
 		TextView kiomDaEraroj = (TextView)findViewById(R.id.kiom_da_eraroj);
 		TextView kiomDaTrafoj = (TextView)findViewById(R.id.kiom_da_trafoj);
@@ -69,21 +72,70 @@ public class Auskultado extends Activity{
 		procentoDaTrafoj.setText(procento + "%");
 	}
 	
-	public void KomenciTeston(View view) {
-		nunaVorto = PreniVorton();
-		LudiVorton(null);
+	public void komenciTeston(View view) {
+		venontaVorto();
 	}
 	
-	private String PreniVorton() {
+	private void venontaVorto() {
+		try{
+			nunaVorto = preniVorton();
+			ludiVorton(null);
+		}catch (MalplenaVortlistoException e) {
+			Integer kvantoEraroj = nekorektajVortoj.size();
+			Integer kvantoTrafoj = korektajVortoj.size();
+			Integer procento = 0;
+			if(kvantoEraroj + kvantoTrafoj > 0) {
+				procento = Math.round(kvantoTrafoj * 100 / (kvantoEraroj + kvantoTrafoj));
+			}
+			
+			if(procento >= 70){
+				Utila.gratuli(this);
+				Utila.montriAverton(R.string.gratulon_via_rezulto_estis_tre_bona, this);
+			}else{
+				Utila.provuDenove(this);
+				Utila.montriAverton(R.string.via_rezulto_ne_estis_tre_bona_provu_denove, this);
+			}
+		}
+	}
+	
+	private String preniVorton() throws MalplenaVortlistoException {
+		if(vortoj.size() == 0){
+			throw new MalplenaVortlistoException();
+		}
+		
 		int hazarda = hazardilo.nextInt(vortoj.size());
 		return vortoj.get(hazarda);
 	}
 	
-	public void LudiVorton(View view) {
+	public void ludiVorton(View view) {
 		Utila.ludu(nunaVorto, this);
 	}
 	
+	private boolean testiVorton(String vorto) {
+		boolean rezulto = false;
+		
+		if(nunaVorto.trim().equalsIgnoreCase(vorto.trim())) {
+			korektajVortoj.add(nunaVorto);
+			vortoj.remove(nunaVorto);
+			kalkuliTrafojn();
+			venontaVorto();
+			rezulto = true;
+		} else {
+			nekorektajVortoj.add(vorto);
+			ripeti();
+		}
+		
+		kalkuliTrafojn();
+		
+		return rezulto;
+	}
 	
+	private void ripeti() {
+		Utila.nei(this);
+		Toast.makeText(this, nunaVorto, Toast.LENGTH_LONG).show();
+		ludiVorton(null);
+	}
+
 	protected class KeyListener implements View.OnKeyListener {
 
 		@Override
@@ -93,11 +145,29 @@ public class Auskultado extends Activity{
 				String teksto = tekstujo.getText().toString();
 				tekstujo.getText().clear();
 				
-				TextView tekstaro = (TextView)findViewById(R.id.textView1);
-				tekstaro.append(teksto + "\n");
+				if(testiVorton(teksto)){
+					TextView tekstaro = (TextView)findViewById(R.id.textView1);
+					tekstaro.append(teksto + "\n");
+					rulumiMalsupren();
+				}
+				
 				return true;
 			}
 			return false;
+		}
+
+		private void rulumiMalsupren() {
+			final TextView tekstaro = (TextView)findViewById(R.id.textView1);
+			final ScrollView rulumilo = (ScrollView)findViewById(R.id.scrollView1);
+			rulumilo.post(new Runnable(){
+
+				@Override
+				public void run() {
+					rulumilo.smoothScrollTo(0, tekstaro.getBottom());
+				}
+				
+			});
+			
 		}
 		
 	}
