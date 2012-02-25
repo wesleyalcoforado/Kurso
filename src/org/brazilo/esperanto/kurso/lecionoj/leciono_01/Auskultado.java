@@ -9,6 +9,8 @@ import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -139,6 +141,22 @@ public class Auskultado extends Activity{
 		Utila.ludu(nunaVorto, this);
 	}
 	
+	private void ludiVortonPostTempo(final long tempoEnMilisekundoj){
+		Thread t = new Thread(){
+			@Override
+			public void run() {
+				try {
+					Thread.sleep(tempoEnMilisekundoj);
+					Utila.ludu(nunaVorto, getApplicationContext());
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			}
+		};
+		
+		t.start();
+	}
+	
 	private boolean testiVorton(String vorto) {
 		boolean rezulto = false;
 		
@@ -162,8 +180,12 @@ public class Auskultado extends Activity{
 	
 	private void ripeti() {
 		Utila.nei(this);
-		Toast.makeText(this, nunaVorto, Toast.LENGTH_LONG).show();
-		ludiVorton(null);
+		
+		Toast mesagxo = Toast.makeText(this, nunaVorto, Toast.LENGTH_LONG);
+		mesagxo.setGravity(Gravity.TOP, 0, 50);
+		mesagxo.show();
+		
+		ludiVortonPostTempo(3500);
 	}
 	
 	private Integer getKvantoDaVortoj(){
