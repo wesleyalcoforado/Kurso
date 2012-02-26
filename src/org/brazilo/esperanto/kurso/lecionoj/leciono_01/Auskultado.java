@@ -9,13 +9,11 @@ import org.brazilo.esperanto.kurso.utilaj.Utila;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -221,27 +219,12 @@ public class Auskultado extends Activity{
 				String vorto = nunaVorto;
 				if(testiVorton(teksto)){
 					TextView tekstaro = (TextView)findViewById(R.id.textView1);
-					tekstaro.append(vorto + "\n");
-					rulumiMalsupren();
+					tekstaro.setText(vorto + "\n" + tekstaro.getText());
 				}
 				
 				return true;
 			}
 			return false;
-		}
-
-		private void rulumiMalsupren() {
-			final TextView tekstaro = (TextView)findViewById(R.id.textView1);
-			final ScrollView rulumilo = (ScrollView)findViewById(R.id.scrollView1);
-			rulumilo.post(new Runnable(){
-
-				@Override
-				public void run() {
-					rulumilo.smoothScrollTo(0, tekstaro.getBottom());
-				}
-				
-			});
-			
 		}
 		
 	}

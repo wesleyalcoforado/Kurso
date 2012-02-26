@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
-
-    <EditText
-        android:id="@+id/editText1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true" 
-        android:enabled="false"
-        >
-
-        <requestFocus />
-    </EditText>
+    android:layout_height="fill_parent" 
+    android:orientation="vertical"
+    >
 
     <TableLayout
         android:id="@+id/tableLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
         android:background="@color/malfonaKoloro"
          >
 
@@ -36,7 +24,7 @@
             <TextView
                 android:id="@+id/kiom_da_vortoj"
                 style="@style/menuo_tekstobildo"
-                android:text="45" />
+                android:text="0" />
 
             <ImageView
                 style="@style/menuo_bildo"
@@ -45,7 +33,7 @@
             <TextView
                 android:id="@+id/kiom_da_trafoj"
                 style="@style/menuo_tekstobildo"
-                android:text="10" />
+                android:text="0" />
 
             <ImageView
                 style="@style/menuo_bildo"
@@ -54,64 +42,76 @@
             <TextView
                 android:id="@+id/kiom_da_eraroj"
                 style="@style/menuo_tekstobildo"
-                android:text="10" />
+                android:text="0" />
 
             <TextView
                 android:id="@+id/trafo_procento"
                 style="@style/menuo_tekstobildo"
                 android:layout_weight="1"
                 android:gravity="right"
-                android:text="100%" />
+                android:text="0%" />
         </TableRow>
-    </TableLayout>
-
+    </TableLayout>   
+    
+    <EditText
+       android:id="@+id/editText1"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:enabled="false"
+       >
+   </EditText>          
+        
+    
+        
     <ScrollView 
         android:id="@+id/scrollView1"
 	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    android:layout_above="@+id/button2"
-	    android:layout_below="@+id/tableLayout1" 
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
 	    >
 	    <TextView
 	        android:id="@+id/textView1"
 		    android:layout_width="fill_parent"
-		    android:layout_height="fill_parent"
+		    android:layout_height="wrap_content"
 	        android:text=""
 	        android:textAppearance="?android:attr/textAppearanceMedium"
 	         />
-    </ScrollView>
-	    
+    </ScrollView>           
+        
+    
+    <RelativeLayout 
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+		<Button
+		     android:id="@+id/button2"
+		     android:layout_width="48dip"
+		     android:layout_height="48dip"
+		     android:layout_centerHorizontal="true"
+		     android:drawableBottom="@drawable/ic_but_halti_unselected" 
+		     android:onClick="finiTeston"
+		     android:enabled="false"
+		     />
+	   
+		<Button
+		   android:id="@+id/button3"
+		   android:layout_width="48dip"
+		   android:layout_height="48dip"
+		   android:layout_toLeftOf="@+id/button2"
+		   android:drawableBottom="@drawable/ic_but_ludi_selected" 
+		   android:onClick="komenciTeston"
+		   />	
+		   
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="48dip"
+	        android:layout_height="48dip"
+	        android:layout_toRightOf="@+id/button2"
+	        android:drawableBottom="@drawable/ic_but_ripeti_unselected"
+	        android:onClick="ludiVorton" 
+	        android:enabled="false"
+	        />    		
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="48dip"
-        android:layout_height="48dip"
-        android:layout_above="@+id/editText1"
-        android:layout_centerHorizontal="true"
-        android:drawableBottom="@drawable/ic_but_halti_unselected" 
-        android:onClick="finiTeston"
-        android:enabled="false"
-        />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="48dip"
-        android:layout_height="48dip"
-        android:layout_above="@+id/editText1"
-        android:layout_toLeftOf="@+id/button2"
-        android:drawableBottom="@drawable/ic_but_ludi_selected" 
-        android:onClick="komenciTeston"
-        />
-
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="48dip"
-        android:layout_height="48dip"
-        android:layout_above="@+id/editText1"
-        android:layout_toRightOf="@+id/button2"
-        android:drawableBottom="@drawable/ic_but_ripeti_unselected"
-        android:onClick="ludiVorton" 
-        android:enabled="false"
-        />
-
-</RelativeLayout>
+    </RelativeLayout>    
+    
+        
+</LinearLayout>

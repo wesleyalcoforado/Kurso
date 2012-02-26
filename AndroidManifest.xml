@@ -28,7 +28,7 @@
         <activity android:name=".lecionoj.leciono_02.Muzikvideo" android:theme="@style/Hauxto.Light"></activity>
         <activity android:theme="@style/Hauxto.Light" android:name=".lecionoj.leciono_01.Prononco"></activity>
         <activity android:theme="@style/Hauxto.Light" android:screenOrientation="landscape" android:name=".lecionoj.leciono_02.Ludilo"></activity>
-        <activity android:name=".lecionoj.leciono_01.Auskultado" android:theme="@style/Hauxto.Light"></activity>
+        <activity android:name=".lecionoj.leciono_01.Auskultado" android:theme="@style/Hauxto.Light" android:windowSoftInputMode="adjustResize"></activity>
 
     </application>
 </manifest>

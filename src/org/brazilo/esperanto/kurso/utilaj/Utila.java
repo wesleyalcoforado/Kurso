@@ -124,7 +124,7 @@ public class Utila {
     }
     
     public static void gratuli(Context kunteksto) {
-    	int indekso = getHazardilo().nextInt(8) + 1;
+    	int indekso = getHazardilo().nextInt(7) + 1;
     	ludu("gratulo"+indekso, kunteksto);
     }
     
@@ -134,7 +134,7 @@ public class Utila {
     }
     
     public static void provuDenove(Context kunteksto) {
-    	int indekso = getHazardilo().nextInt(8) + 1;
+    	int indekso = getHazardilo().nextInt(6) + 1;
     	ludu("nebona"+indekso, kunteksto);
     }
     

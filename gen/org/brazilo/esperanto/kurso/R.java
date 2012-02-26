@@ -87,14 +87,14 @@ public final class R {
     public static final class id {
         public static final int bildo1=0x7f0a001d;
         public static final int button1=0x7f0a0010;
-        public static final int button2=0x7f0a000d;
+        public static final int button2=0x7f0a000e;
         public static final int button3=0x7f0a000f;
-        public static final int editText1=0x7f0a0006;
+        public static final int editText1=0x7f0a000b;
         public static final int foriri=0x7f0a0022;
         public static final int kio_estas_esperanto=0x7f0a0021;
-        public static final int kiom_da_eraroj=0x7f0a000a;
-        public static final int kiom_da_trafoj=0x7f0a0009;
-        public static final int kiom_da_vortoj=0x7f0a0008;
+        public static final int kiom_da_eraroj=0x7f0a0009;
+        public static final int kiom_da_trafoj=0x7f0a0008;
+        public static final int kiom_da_vortoj=0x7f0a0007;
         public static final int leciono_1_finajxoj_adjektivoj=0x7f0a0016;
         public static final int leciono_1_finajxoj_butono_adjektivoj=0x7f0a0015;
         public static final int leciono_1_finajxoj_butono_substantivoj=0x7f0a0013;
@@ -115,9 +115,9 @@ public final class R {
         public static final int stelo=0x7f0a0000;
         public static final int tabEkzerco=0x7f0a0003;
         public static final int tabKlarigo=0x7f0a0002;
-        public static final int tableLayout1=0x7f0a0007;
-        public static final int textView1=0x7f0a000e;
-        public static final int trafo_procento=0x7f0a000b;
+        public static final int tableLayout1=0x7f0a0006;
+        public static final int textView1=0x7f0a000d;
+        public static final int trafo_procento=0x7f0a000a;
         public static final int video=0x7f0a001e;
         public static final int vorto1=0x7f0a0005;
     }
@@ -187,7 +187,7 @@ public final class R {
         public static final int gratulo4=0x7f04002b;
         public static final int gratulo5=0x7f04002c;
         public static final int gratulo6=0x7f04002d;
-        public static final int gratulo8=0x7f04002e;
+        public static final int gratulo7=0x7f04002e;
         public static final int gusta=0x7f04002f;
         public static final int gx=0x7f040030;
         public static final int gxene=0x7f040031;
@@ -245,11 +245,11 @@ public final class R {
         public static final int ne3=0x7f040065;
         public static final int ne4=0x7f040066;
         public static final int nebona1=0x7f040067;
-        public static final int nebona3=0x7f040068;
-        public static final int nebona4=0x7f040069;
-        public static final int nebona5=0x7f04006a;
-        public static final int nebona6=0x7f04006b;
-        public static final int nebona8=0x7f04006c;
+        public static final int nebona2=0x7f040068;
+        public static final int nebona3=0x7f040069;
+        public static final int nebona4=0x7f04006a;
+        public static final int nebona5=0x7f04006b;
+        public static final int nebona6=0x7f04006c;
         public static final int ni=0x7f04006d;
         public static final int ni_estas=0x7f04006e;
         public static final int nia=0x7f04006f;
