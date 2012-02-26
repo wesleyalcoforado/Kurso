@@ -30,10 +30,15 @@ public class Leciono2 extends ListActivity {
     	
     	Intent intent = null;
     	switch(position){
-		case 3:
-			intent = new Intent(this, Muzikvideo.class);
-			startActivity(intent);
-	    	break;
+			case 3:
+				intent = new Intent(this, Muzikvideo.class);
+				startActivity(intent);
+		    	break;
+			case 6:
+				intent = new Intent(this, Auskultado.class);
+				startActivity(intent);
+		    	break;
+				
     	}
     	
     }	

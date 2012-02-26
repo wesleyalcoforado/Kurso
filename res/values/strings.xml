@@ -143,56 +143,98 @@
     <string name="glitigu_ekranon">Deslize a tela para os lados para visualizar o conteúdo.</string>
     <string name="leciono_2_muzikvideo">Vamos ouvir agora uma canção em Esperanto, «Jen», do grupo argentino La Porkoj, premiado no concurso internacional de arte da Associação Mundial de Esperanto. Jen é equivalente ao «eis», em português. Pressione o botão abaixo para iniciar a canção.</string>
     <string name="teksto_auskultado">No exercício seguinte, você ouvirá uma palavra ou frase e deverá escrevê-la no espaço indicado. Se você acertar, a palavra ou frase aparecerá no painel, do contrário, a palavra será ouvida de novo em outro momento durante o exercício. Você deverá acertar pelo menos 70%.</string>
-    <string-array name="auskultlisto_2">
-		<item>ŝia</item>
-		<item>vi estis</item>
-		<item>li</item>
-		<item>instruisto</item>
-		<item>viro</item>
-		<item>ili</item>
-		<item>ni</item>
-		<item>oni</item>
-		<item>mi</item>
-		<item>sana</item>
-		<item>ŝi</item>
-		<item>miaj amikoj</item>
-		<item>lakto</item>
-		<item>bona</item>
-		<item>kafo</item>
-		<item>si</item>
+    <string-array name="auskultlisto">
 		<item>amiko</item>
-		<item>la knabo</item>
-		<item>pano</item>
-		<item>granda</item>
+		<item>bela</item>
+		<item>belaj floroj</item>
+		<item>biskvito</item>
+		<item>blanka</item>
+		<item>bona</item>
+		<item>bonaj amikoj</item>
+		<item>filo</item>
 		<item>floro</item>
+		<item>frato</item>
+		<item>ĝi</item>
+		<item>ĝi estos</item>
+		<item>granda</item>
+		<item>ili</item>
+		<item>ili estas</item>
+		<item>instruisto</item>
+		<item>kafo</item>
+		<item>knabo</item>
+		<item>kuko</item>
+		<item>la floroj</item>
+		<item>la knabo</item>
+		<item>la pano</item>
+		<item>la patroj</item>
+		<item>lakto</item>
+		<item>li</item>
+		<item>li estis</item>
+		<item>mi</item>
+		<item>mi estas</item>
+		<item>miaj amikoj</item>
+		<item>ni</item>
+		<item>ni estas</item>
+		<item>nova</item>
+		<item>oni</item>
+		<item>oni estos</item>
+		<item>pano</item>
+		<item>sana</item>
+		<item>seka</item>
+		<item>si</item>
+		<item>ŝi</item>
+		<item>ŝi estas</item>
+		<item>ŝia</item>
+		<item>sukero</item>
 		<item>teo</item>
 		<item>varma</item>
-		<item>blanka</item>
-		<item>kuko</item>
-		<item>ĝi</item>
-		<item>ŝi estas</item>
-		<item>li estis</item>
-		<item>la floroj</item>
 		<item>vi</item>
-		<item>biskvito</item>
-		<item>knabo</item>
-		<item>seka</item>
-		<item>la patroj</item>
-		<item>la pano</item>
-		<item>bonaj amikoj</item>
-		<item>frato</item>
-		<item>bela</item>
-		<item>ni estas</item>
-		<item>oni estos</item>
-		<item>mi estas</item>
-		<item>belaj floroj</item>
-		<item>sukero</item>
-		<item>nova</item>
-		<item>ili estas</item>
-		<item>filo</item>
-		<item>ĝi estos</item>
+		<item>vi estis</item>
+		<item>viro</item>
     </string-array>
     <string name="gratulon_via_rezulto_estis_tre_bona">Parabéns! O seu resultado foi muito bom.</string>
     <string name="via_rezulto_ne_estis_tre_bona_provu_denove">Seu resultado não foi muito bom. Tente novamente.</string>
+    <string-array name="auskultlisto_2">
+		<item>akvo</item>
+		<item>ami</item>
+		<item>amikino</item>
+		<item>amo</item>
+		<item>avara</item>
+		<item>bela</item>
+		<item>birdo</item>
+		<item>butiko</item>
+		<item>fari</item>
+		<item>filino</item>
+		<item>filo</item>
+		<item>forgesi</item>
+		<item>havi</item>
+		<item>insekto</item>
+		<item>juna</item>
+		<item>kapti</item>
+		<item>lavi</item>
+		<item>limonado</item>
+		<item>malamiko</item>
+		<item>malavara</item>
+		<item>malbela</item>
+		<item>maljuna</item>
+		<item>malnova</item>
+		<item>nova</item>
+		<item>papero</item>
+		<item>patrino</item>
+		<item>patro</item>
+		<item>peti</item>
+		<item>plumo</item>
+		<item>porti</item>
+		<item>pura</item>
+		<item>renkonti</item>
+		<item>skribi</item>
+		<item>sukeri</item>
+		<item>taso</item>
+		<item>trinki</item>
+		<item>trovi</item>
+		<item>vendi</item>
+		<item>vidi</item>
+		<item>virino</item>        
+    </string-array>
         
 </resources>

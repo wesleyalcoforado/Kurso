@@ -43,9 +43,13 @@ public class Auskultado extends Activity{
 		korektajVortoj = new ArrayList<String>();
 		nekorektajVortoj = new ArrayList<String>();
 		
-		for (CharSequence vorto : this.getResources().getTextArray(R.array.auskultlisto_2)) {
+		for (CharSequence vorto : getVortListo()) {
 			vortoj.add(vorto.toString());
 		}
+	}
+	
+	protected CharSequence[] getVortListo(){
+		return this.getResources().getTextArray(R.array.auskultlisto);
 	}
 	
 	private void kalkuliTrafojn() {
