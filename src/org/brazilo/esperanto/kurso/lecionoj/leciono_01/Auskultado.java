@@ -72,12 +72,13 @@ public class Auskultado extends Activity{
 		kalkuliTrafojn();
 		
 		venontaVorto();
+		ludiVorton(null);
 	}
 	
 	private void venontaVorto() {
 		try{
+			nunaVorto = null;
 			nunaVorto = preniVorton();
-			ludiVorton(null);
 		}catch (MalplenaVortlistoException e) {
 			finiTeston(null);
 		}
@@ -140,7 +141,9 @@ public class Auskultado extends Activity{
 	}
 	
 	public void ludiVorton(View view) {
-		Utila.ludu(nunaVorto, this);
+		if(nunaVorto != null){
+			Utila.ludu(nunaVorto, this);
+		}
 	}
 	
 	private void ludiVortonPostTempo(final long tempoEnMilisekundoj){
@@ -169,6 +172,7 @@ public class Auskultado extends Activity{
 			vortoj.remove(nunaVorto);
 			kalkuliTrafojn();
 			venontaVorto();
+			ludiVorton(null);
 			rezulto = true;
 		} else {
 			nekorektajVortoj.add(vorto);
@@ -187,6 +191,7 @@ public class Auskultado extends Activity{
 		mesagxo.setGravity(Gravity.TOP, 0, 50);
 		mesagxo.show();
 		
+		venontaVorto();
 		ludiVortonPostTempo(3500);
 	}
 	
